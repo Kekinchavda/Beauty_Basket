@@ -31,6 +31,7 @@
 
 ## 📁 Project Structure
 
+````
 beutyBasket/
 ├── app/
 ├── public/
@@ -46,7 +47,7 @@ beutyBasket/
 │ └── pages/
 ├── routes/
 └── README.md
-
+````
 
 ---
 
