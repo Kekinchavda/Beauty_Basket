@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💄 Beauty Basket
 
 **Beauty Basket** is a Laravel-based eCommerce web application built for selling cosmetic and beauty products. The project delivers a modern, responsive, and user-friendly shopping experience with a clean UI and scalable backend architecture.
@@ -80,3 +81,7 @@ php artisan serve
 
 Visit:
 http://127.0.0.1:8000
+=======
+# Beauty_Basket
+Beauty Basket is an eCommerce web application for cosmetic and beauty products, built using Laravel. It offers a clean design, user-friendly shopping experience, and a solid foundation for online beauty stores.
+>>>>>>> c157ecd (Initial commit)
