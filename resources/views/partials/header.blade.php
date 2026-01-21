@@ -12,7 +12,7 @@
                     <form>
                         <div class="form-inner">
                             <input type="text" name="search" placeholder="Search...">
-                            <button type="submit"><i class="bx bx-search"></i></button>
+                            <button type="submit"><i class="bi bi-search"></i></button>
                         </div>
                     </form>
                 </div>
@@ -114,11 +114,11 @@
                     <li><a href="shop-list.html">Skin Care</a></li>
                     <li class="category-has-child">
                         <a href="shop-list.html">Personal Care </a>
-                        <i class='bx bx-chevron-right'></i>
+                        <i class="bi bi-chevron-right"></i>
                         <ul class="sub-menu">
                             <li><a href="shop-list.html">Body Treatments</a></li>
                             <li><a href="shop-list.html">Face Care
-                                    <i class='bx bx-chevron-right'></i>
+                                    <i class='bi bi-chevron-right'></i>
                                 </a>
                                 <ul class="sub-menu">
                                     <li><a href="shop-list.html">Face Oil</a></li>
@@ -1201,7 +1201,7 @@
                             <a href="error.html">Error</a>
                         </li>
                         <li>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="{{ route('contact.us') }}">Contact Us</a>
                         </li>
                     </ul>
                 </li>
