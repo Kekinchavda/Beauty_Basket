@@ -257,8 +257,8 @@
                <div class="product-card hover-btn">
                   <div class="product-card-img double-img">
                      <a href="product-default.html">
-                        <img src="assets/img/home1/product-img-1.png" alt="" class="img1">
-                        <img src="assets/img/home1/product-img-4.png" alt="" class="img2">
+                        <img src="{{ asset('assets/img/home1/product-img-1.png') }}" alt="" class="img1">
+                        <img src="{{ asset('assets/img/home1/product-img-4.png') }}" alt="" class="img2">
                         <div class="countdown-timer">
                            <ul data-countdown="2023-10-23 12:00:00">
                               <li class="times" data-days="00">00</li>
@@ -334,7 +334,7 @@
                <div class="product-card hover-btn">
                   <div class="product-card-img">
                      <a href="product-default.html">
-                        <img src="assets/img/home1/product-img-8.png" alt="">
+                        <img src="{{ asset('assets/img/home1/product-img-8.png') }}" alt="">
                         <div class="batch">
                            <span>-15%</span>
                         </div>
@@ -393,8 +393,8 @@
                <div class="product-card hover-btn">
                   <div class="product-card-img double-img">
                      <a href="product-default.html">
-                        <img src="assets/img/home1/product-img-3.png" alt="" class="img1">
-                        <img src="assets/img/home1/product-img-20.png" alt="" class="img2">
+                        <img src="{{ asset('assets/img/home1/product-img-3.png') }}" alt="" class="img1">
+                        <img src="{{ asset('assets/img/home1/product-img-20.png') }}" alt="" class="img2">
                         <div class="batch">
                            <span>-25%</span>
                         </div>
@@ -453,7 +453,7 @@
                <div class="product-card hover-btn">
                   <div class="product-card-img">
                      <a href="product-default.html">
-                        <img src="assets/img/home1/product-img-4.png" alt="">
+                        <img src="{{ asset('assets/img/home1/product-img-4.png') }}" alt="">
                         <div class="batch">
                            <span>-15%</span>
                         </div>
@@ -507,7 +507,7 @@
                <div class="product-card hover-btn">
                   <div class="product-card-img">
                      <a href="product-default.html">
-                        <img src="assets/img/home1/product-img-5.png" alt="">
+                        <img src="{{ asset('assets/img/home1/product-img-5.png') }}" alt="">
                         <div class="batch">
                            <span>-15%</span>
                         </div>
@@ -568,8 +568,8 @@
                <div class="product-card hover-btn">
                   <div class="product-card-img double-img">
                      <a href="product-default.html">
-                        <img src="assets/img/home1/product-img-6.png" alt="" class="img1">
-                        <img src="assets/img/home1/product-img-7.png" alt="" class="img2">
+                        <img src="{{ asset('assets/img/home1/product-img-6.png') }}" alt="" class="img1">
+                        <img src="{{ asset('assets/img/home1/product-img-7.png') }}" alt="" class="img2">
                         <div class="batch">
                            <span>-15%</span>
                         </div>
@@ -710,9 +710,9 @@
                               <div class="quantity-color">
                                  <h6 class="widget-title">Quantity</h6>
                                  <div class="quantity-counter">
-                                    <a href="#" class="quantity__minus"><i class='bx bx-minus'></i></a>
+                                    <a href="#" class="quantity__minus"><i class='bi bi-minus'></i></a>
                                     <input name="quantity" type="text" class="quantity__input" value="01">
-                                    <a href="#" class="quantity__plus"><i class='bx bx-plus'></i></a>
+                                    <a href="#" class="quantity__plus"><i class='bi bi-plus'></i></a>
                                  </div>
                               </div>
                               <div class="quantity-color">
@@ -813,8 +813,8 @@
 
    <!-- Start Just For section section -->
    <div class="just-for-section mb-110">
-      <img src="assets/img/home1/icon/vector-1.svg" alt="" class="vector1">
-      <img src="assets/img/home1/icon/vector-2.svg" alt="" class="vector2">
+      <img src="{{ asset('assets/img/home1/icon/vector-1.svg') }}" alt="" class="vector1">
+      <img src="{{ asset('assets/img/home1/icon/vector-2.svg') }}" alt="" class="vector2">
       <div class="container">
          <div class="section-title2 style-2">
             <h3>Just For You</h3>
@@ -879,7 +879,7 @@
                   </button>
                </div>
                <div class="offer-img hover-img">
-                  <img src="assets/img/home1/offer-img.png" alt="">
+                  <img src="{{ asset('assets/img/home1/offer-img.png') }}" alt="">
                   <div class="discount-buy">
                      <div class="discount">
                         <svg width="65" height="65" viewBox="0 0 65 65" xmlns="http://www.w3.org/2000/svg">
@@ -972,8 +972,8 @@
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
                                  <a href="product-default.html">
-                                    <img src="assets/img/home1/product-img-9.png" alt="" class="img1">
-                                    <img src="assets/img/home1/product-img-21.png" alt="" class="img2">
+                                    <img src="{{ asset('assets/img/home1/product-img-9.png') }}" alt="" class="img1">
+                                    <img src="{{ asset('assets/img/home1/product-img-21.png') }}" alt="" class="img2">
                                     <div class="batch">
                                        <span>-15%</span>
                                     </div>
@@ -1364,7 +1364,7 @@
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
                                  <a href="product-default.html">
-                                    <img src="assets/img/home1/product-img-8.png" alt="">
+                                    <img src="{{ asset('assets/img/home1/product-img-8.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
                                     </div>
@@ -2826,7 +2826,7 @@
          <div class="row gy-4">
             <div class="col-lg-6">
                <div class="offer-banner-left hover-img">
-                  <img src="assets/img/home1/offer-banner-left.png" alt="">
+                  <img src="{{ asset('assets/img/home1/offer-banner-left.png') }}" alt="">
                   <div class="offer-banner-left-content">
                      <div class="left-text">
                         <h5>Limited Offer</h5>

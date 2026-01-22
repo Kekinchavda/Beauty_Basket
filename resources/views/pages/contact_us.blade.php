@@ -4,16 +4,16 @@
 
 @section('content')
     <!-- Start Breadcrumb Section -->
-    <div class="breadcrumb-section">
+    {{-- <div class="breadcrumb-section">
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Contact</li>
                 </ol>
             </nav>
         </div>
-    </div>
+    </div> --}}
     <!-- End Breadcrumb Section section -->
     <div class="contact-page pt-100 mb-100">
         <div class="container">
@@ -28,13 +28,13 @@
                                 <div class="col-md-12">
                                     <div class="form-inner mb-20">
                                         <label>Full Name*</label>
-                                        <input type="text" placeholder="Jackson Mile">
+                                        <input type="text" placeholder="Your Name">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-inner mb-20">
                                         <label>Phone*</label>
-                                        <input type="text" placeholder="Ex- +880-13* ** ***">
+                                        <input type="text" placeholder="Ex- +91 98989 98989" max="10">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -83,7 +83,7 @@
                         </div>
                         <div class="content">
                             <span>Email Now</span>
-                            <h6><a href="#"><span class="__cf_email__">[email&#160;protected]</span></a>
+                            <h6><a href="mailto:{{ config('mail.from.address') }}"><span class="__cf_email__">info@beautybasket.com</span></a>
                             </h6>
                         </div>
                     </div>
@@ -101,12 +101,12 @@
                         </div>
                         <div class="content">
                             <span>Location</span>
-                            <h6><a>Road-03, House-123/124, New York.</a></h6>
+                            <h6><a>Shop-04, Shree Vihal Complex, Botad.</a></h6>
                         </div>
                     </div>
                     <div class="service-available">
                         <span>N:B:</span>
-                        <p>Customer support always open at <strong>9 am</strong> to <strong>6 pm</strong> in everyday</p>
+                        <p>Customer support always open at <strong>10 am</strong> to <strong>8 pm</strong> in everyday</p>
                     </div>
                 </div>
             </div>
