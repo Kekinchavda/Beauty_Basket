@@ -85,7 +85,7 @@
                 <div class="row">
                     <div class="col-lg-12 d-flex flex-md-row flex-column align-items-center justify-content-md-between justify-content-center flex-wrap gap-3">
                         <div class="footer-left">
-                            <p>©Copyright 2023 Beautico | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
+                            <p>©Copyright {{ date('Y') }} Beauty Basket | Design By <a href="https://www.egenslab.com/">DevNex Solutions</a></p>
                         </div>
                         <div class="footer-logo">
                             <a href="index.html"><img src="{{ asset('assets/img/logo.svg') }}" alt=""></a>
@@ -105,7 +105,7 @@
                             </div>
                             <div class="content">
                                 <p>For Inquiry</p>
-                                <h6><a href="tel:29658718617">2-965-871-8617</a></h6>
+                                <h6><a href="tel:+917069670067">+91 70696 70067</a></h6>
                             </div>
                         </div>
                     </div>
