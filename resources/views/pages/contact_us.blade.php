@@ -4,16 +4,9 @@
 
 @section('content')
     <!-- Start Breadcrumb Section -->
-    {{-- <div class="breadcrumb-section">
-        <div class="container">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
-                </ol>
-            </nav>
-        </div>
-    </div> --}}
+    <x-breadcrumb :breadcrumbs="[
+            ['title' => 'Contact Us', 'url' => route('contact.us')],
+        ]" />
     <!-- End Breadcrumb Section section -->
     <div class="contact-page pt-100 mb-100">
         <div class="container">
@@ -83,7 +76,8 @@
                         </div>
                         <div class="content">
                             <span>Email Now</span>
-                            <h6><a href="mailto:{{ config('mail.from.address') }}"><span class="__cf_email__">info@beautybasket.com</span></a>
+                            <h6><a href="mailto:{{ config('mail.from.address') }}"><span
+                                        class="__cf_email__">info@beautybasket.com</span></a>
                             </h6>
                         </div>
                     </div>

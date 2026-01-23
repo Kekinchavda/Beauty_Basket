@@ -1,13 +1,10 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('home');
-})->name('index');
-Route::get('contact-us', function () {
-    return view('pages.contact_us');
-})->name('contact.us');
-route::get('shop-list', function () {
-    return view('pages.shop_list');
-})->name('shop.list');
+
+route::get('/',[HomeController::class,'index'])->name('index');
+route::get('contact-us',[HomeController::class,'contact'])->name('contact.us');
+route::get('shop-list',[HomeController::class,'ShopList'])->name('shop.list');
+route::get('our-brand',[HomeController::class,'OurBrand'])->name('our.brand');
