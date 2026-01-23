@@ -7,7 +7,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
-    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <x-theme-variables />
+
     <!-- Bootstrap Icon CSS -->
     <link href="{{ asset('assets/css/bootstrap-icons.css') }}" rel="stylesheet">
     <!-- Fontawesome all CSS -->
