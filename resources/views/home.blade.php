@@ -13,9 +13,12 @@
                      <div class="swiper-slide">
                         <div class="banner-wrapper">
                            <div class="banner-left">
-                              <img src="{{ asset('assets/img/home1/icon/banner-vector1.svg') }}" alt="" class="banner-vector1">
-                              <img src="{{ asset('assets/img/home1/icon/banner-vector2.svg') }}" alt="" class="banner-vector2">
-                              <img src="{{ asset('assets/img/home1/icon/banner-vector3.svg') }}" alt="" class="banner-vector3">
+                              <img src="{{ asset('assets/img/home1/icon/banner-vector1.svg') }}" alt=""
+                                 class="banner-vector1">
+                              <img src="{{ asset('assets/img/home1/icon/banner-vector2.svg') }}" alt=""
+                                 class="banner-vector2">
+                              <img src="{{ asset('assets/img/home1/icon/banner-vector3.svg') }}" alt=""
+                                 class="banner-vector3">
                               <div class="banner-content">
                                  <div class="discount">
                                     <img src="{{ asset('assets/img/home1/discount-bg.svg') }}" alt="">
@@ -29,8 +32,10 @@
                            </div>
                            <div class="banner-right-wrapper">
                               <div class="banner-right-img">
-                                 <img src="{{ asset('assets/img/home1/banner-right-tag.png') }}" alt="" class="discount-tag">
-                                 <img src="{{ asset('assets/img/home1/banner-right-bg.png') }}" alt="" class="banner-right-bg">
+                                 <img src="{{ asset('assets/img/home1/banner-right-tag.png') }}" alt=""
+                                    class="discount-tag">
+                                 <img src="{{ asset('assets/img/home1/banner-right-bg.png') }}" alt=""
+                                    class="banner-right-bg">
                               </div>
                            </div>
                         </div>
@@ -38,9 +43,12 @@
                      <div class="swiper-slide">
                         <div class="banner-wrapper">
                            <div class="banner-left">
-                              <img src="{{ asset('assets/img/home1/icon/banner-vector1.svg') }}" alt="" class="banner-vector1">
-                              <img src="{{ asset('assets/img/home1/icon/banner-vector2.svg') }}" alt="" class="banner-vector2">
-                              <img src="{{ asset('assets/img/home1/icon/banner-vector3.svg') }}" alt="" class="banner-vector3">
+                              <img src="{{ asset('assets/img/home1/icon/banner-vector1.svg') }}" alt=""
+                                 class="banner-vector1">
+                              <img src="{{ asset('assets/img/home1/icon/banner-vector2.svg') }}" alt=""
+                                 class="banner-vector2">
+                              <img src="{{ asset('assets/img/home1/icon/banner-vector3.svg') }}" alt=""
+                                 class="banner-vector3">
                               <div class="banner-content">
                                  <div class="discount">
                                     <img src="{{ asset('assets/img/home1/discount-bg.svg') }}" alt="">
@@ -54,7 +62,8 @@
                            </div>
                            <div class="banner-right-wrapper">
                               <div class="banner-right-img">
-                                 <img src="{{ asset('assets/img/home1/banner-right-bg2.png') }}" alt="" class="banner-right-bg">
+                                 <img src="{{ asset('assets/img/home1/banner-right-bg2.png') }}" alt=""
+                                    class="banner-right-bg">
                               </div>
                            </div>
                         </div>
@@ -62,9 +71,12 @@
                      <div class="swiper-slide">
                         <div class="banner-wrapper">
                            <div class="banner-left">
-                              <img src="{{ asset('assets/img/home1/icon/banner-vector1.svg') }}" alt="" class="banner-vector1">
-                              <img src="{{ asset('assets/img/home1/icon/banner-vector2.svg') }}" alt="" class="banner-vector2">
-                              <img src="{{ asset('assets/img/home1/icon/banner-vector3.svg') }}" alt="" class="banner-vector3">
+                              <img src="{{ asset('assets/img/home1/icon/banner-vector1.svg') }}" alt=""
+                                 class="banner-vector1">
+                              <img src="{{ asset('assets/img/home1/icon/banner-vector2.svg') }}" alt=""
+                                 class="banner-vector2">
+                              <img src="{{ asset('assets/img/home1/icon/banner-vector3.svg') }}" alt=""
+                                 class="banner-vector3">
                               <div class="banner-content">
                                  <div class="discount">
                                     <img src="{{ asset('assets/img/home1/discount-bg.svg') }}" alt="">
@@ -86,9 +98,12 @@
                      <div class="swiper-slide">
                         <div class="banner-wrapper">
                            <div class="banner-left">
-                              <img src="{{ asset('assets/img/home1/icon/banner-vector1.svg') }}" alt="" class="banner-vector1">
-                              <img src="{{ asset('assets/img/home1/icon/banner-vector2.svg') }}" alt="" class="banner-vector2">
-                              <img src="{{ asset('assets/img/home1/icon/banner-vector3.svg') }}" alt="" class="banner-vector3">
+                              <img src="{{ asset('assets/img/home1/icon/banner-vector1.svg') }}" alt=""
+                                 class="banner-vector1">
+                              <img src="{{ asset('assets/img/home1/icon/banner-vector2.svg') }}" alt=""
+                                 class="banner-vector2">
+                              <img src="{{ asset('assets/img/home1/icon/banner-vector3.svg') }}" alt=""
+                                 class="banner-vector3">
                               <div class="banner-content">
                                  <div class="discount">
                                     <img src="{{ asset('assets/img/home1/discount-bg.svg') }}" alt="">
@@ -102,7 +117,8 @@
                            </div>
                            <div class="banner-right-wrapper">
                               <div class="banner-right-img">
-                                 <img src="{{ asset('assets/img/home1/banner-right-bg4.png') }}" alt="" class="banner-right-bg">
+                                 <img src="{{ asset('assets/img/home1/banner-right-bg4.png') }}" alt=""
+                                    class="banner-right-bg">
                               </div>
                            </div>
                         </div>
@@ -242,7 +258,7 @@
          <div class="section-title2">
             <h3>Best Selling Product</h3>
             <div class="all-product hover-underline">
-               <a href="shop-list.html">*View All Product
+               <a href="{{ route('shop.list') }}">*View All Product
                   <svg width="33" height="13" viewBox="0 0 33 13" xmlns="http://www.w3.org/2000/svg">
                      <path
                         d="M25.5083 7.28L0.491206 7.25429C0.36093 7.25429 0.23599 7.18821 0.143871 7.0706C0.0517519 6.95299 0 6.79347 0 6.62714C0 6.46081 0.0517519 6.3013 0.143871 6.18369C0.23599 6.06607 0.36093 6 0.491206 6L25.5088 6.02571C25.6391 6.02571 25.764 6.09179 25.8561 6.2094C25.9482 6.32701 26 6.48653 26 6.65286C26 6.81919 25.9482 6.9787 25.8561 7.09631C25.764 7.21393 25.6386 7.28 25.5083 7.28Z" />
@@ -819,7 +835,7 @@
          <div class="section-title2 style-2">
             <h3>Just For You</h3>
             <div class="all-product hover-underline">
-               <a href="shop-list.html">*View All Product
+               <a href="{{ route('shop.list') }}">*View All Product
                   <svg width="33" height="13" viewBox="0 0 33 13" xmlns="http://www.w3.org/2000/svg">
                      <path
                         d="M25.5083 7.28L0.491206 7.25429C0.36093 7.25429 0.23599 7.18821 0.143871 7.0706C0.0517519 6.95299 0 6.79347 0 6.62714C0 6.46081 0.0517519 6.3013 0.143871 6.18369C0.23599 6.06607 0.36093 6 0.491206 6L25.5088 6.02571C25.6391 6.02571 25.764 6.09179 25.8561 6.2094C25.9482 6.32701 26 6.48653 26 6.65286C26 6.81919 25.9482 6.9787 25.8561 7.09631C25.764 7.21393 25.6386 7.28 25.5083 7.28Z" />
@@ -4242,28 +4258,36 @@
                   <div class="swiper instagram-slider">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img1.png') }}" alt=""></a>
+                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img1.png') }}"
+                                 alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img2.png') }}" alt=""></a>
+                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img2.png') }}"
+                                 alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img3.png') }}" alt=""></a>
+                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img3.png') }}"
+                                 alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img4.png') }}" alt=""></a>
+                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img4.png') }}"
+                                 alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img5.png') }}" alt=""></a>
+                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img5.png') }}"
+                                 alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img6.png') }}" alt=""></a>
+                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img6.png') }}"
+                                 alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img7.png') }}" alt=""></a>
+                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img7.png') }}"
+                                 alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img8.png') }}" alt=""></a>
+                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img8.png') }}"
+                                 alt=""></a>
                         </div>
                      </div>
                   </div>
