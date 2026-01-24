@@ -87,7 +87,7 @@
                                         Praesent commodo at massa eget suscipit. Utani vitae
                                         enim velit.</p>
                                     <div class="price-area">
-                                        <p class="price">$150.00 <del>$200.00</del></p>
+                                        <p class="price">₹150.00 <del>₹200.00</del></p>
                                     </div>
                                     <div class="quantity-color-area">
                                         <div class="quantity-color">
@@ -147,7 +147,7 @@
                                                 <path
                                                     d="M32.1428 27.4286H24.1428C23.8397 27.4286 23.549 27.3082 23.3347 27.0938C23.1203 26.8795 22.9999 26.5888 22.9999 26.2857C22.9999 25.9826 23.1203 25.6919 23.3347 25.4776C23.549 25.2633 23.8397 25.1429 24.1428 25.1429H31.2308L36.4239 2.28571H10.4285C10.1254 2.28571 9.83471 2.16531 9.62038 1.95098C9.40605 1.73665 9.28564 1.44596 9.28564 1.14286C9.28564 0.839753 9.40605 0.549063 9.62038 0.334735C9.83471 0.120408 10.1254 1.4297e-07 10.4285 1.4297e-07H37.8571C38.0286 -8.56294e-05 38.1979 0.0384228 38.3525 0.112672C38.507 0.186921 38.6429 0.295008 38.7501 0.42892C38.8572 0.562832 38.9328 0.719137 38.9713 0.886249C39.0098 1.05336 39.0102 1.227 38.9725 1.39429L33.2582 26.5371C33.2011 26.7903 33.0596 27.0165 32.8569 27.1785C32.6541 27.3405 32.4023 27.4287 32.1428 27.4286Z">
                                                 </path>
-                                            </svg> Free worldwide shipping on all orders over $100
+                                            </svg> Free worldwide shipping on all orders over ₹100
                                         </li>
                                         <li class="product-delivers">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20"
@@ -337,7 +337,7 @@
                                         <h6><a href="product-default.html" class="hover-underline">Botanical hair Shampoo
                                             </a></h6>
                                         <p><a href="shop-list.html">Radiant Vibe</a></p>
-                                        <p class="price">$150.00 <del>$200.00</del></p>
+                                        <p class="price">₹150.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
                                                 <li><i class="bi bi-star-fill"></i></li>
@@ -401,7 +401,7 @@
                                         <h6><a href="product-default.html" class="hover-underline">Bamboo Fibers
                                                 Shampoo</a></h6>
                                         <p><a href="shop-list.html">Glow Flair</a></p>
-                                        <p class="price">$145.00</p>
+                                        <p class="price">₹145.00</p>
                                         <div class="rating">
                                             <ul>
                                                 <li><i class="bi bi-star-fill"></i></li>
@@ -462,7 +462,7 @@
                                         <h6><a href="product-default.html" class="hover-underline">Organic vitamin
                                                 cream</a></h6>
                                         <p><a href="shop-list.html">pantene</a></p>
-                                        <p class="price">$140.00 <del>$200.00</del></p>
+                                        <p class="price">₹140.00 <del>₹200.00</del></p>
                                         <ul class="product-size">
                                             <li>250 ml</li>
                                             <li>500 ml</li>
@@ -519,7 +519,7 @@
                                         <h6><a href="product-default.html" class="hover-underline">Eau de perfume for
                                                 women</a></h6>
                                         <p><a href="shop-list.html">Belle Luxe</a></p>
-                                        <p class="price">$135.00 <del>$200.00</del></p>
+                                        <p class="price">₹135.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
                                                 <li><i class="bi bi-star-fill"></i></li>
@@ -581,7 +581,7 @@
                                         <h6><a href="product-default.html" class="hover-underline">Poutsicle Hydrating Lip
                                                 Stain.</a></h6>
                                         <p><a href="shop-list.html">Elevate Glow</a></p>
-                                        <p class="price">$130.00 <del>$200.00</del></p>
+                                        <p class="price">₹130.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
                                                 <li><i class="bi bi-star-fill"></i></li>
@@ -642,7 +642,7 @@
                                         <h6><a href="product-default.html" class="hover-underline">huile de Hemp seed
                                                 olive oil</a></h6>
                                         <p><a href="shop-list.html">REVLON</a></p>
-                                        <p class="price">$125.00</p>
+                                        <p class="price">₹125.00</p>
                                         <div class="rating">
                                             <ul>
                                                 <li><i class="bi bi-star-fill"></i></li>
@@ -703,7 +703,7 @@
                                         <h6><a href="product-default.html" class="hover-underline">curology face
                                                 cleanser</a></h6>
                                         <p><a href="shop-list.html">Pure Glam</a></p>
-                                        <p class="price">$120.00</p>
+                                        <p class="price">₹120.00</p>
                                         <div class="rating">
                                             <ul>
                                                 <li><i class="bi bi-star-fill"></i></li>
@@ -764,7 +764,7 @@
                                         <h6><a href="product-default.html" class="hover-underline">Coconut balm skin
                                                 salve</a></h6>
                                         <p><a href="shop-list.html">Divine Aura</a></p>
-                                        <p class="price">$115.00 <del>$200.00</del></p>
+                                        <p class="price">₹115.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
                                                 <li><i class="bi bi-star-fill"></i></li>
@@ -825,7 +825,7 @@
                                         <h6><a href="product-default.html" class="hover-underline">Cucumber Green Tea</a>
                                         </h6>
                                         <p><a href="shop-list.html">Luminara</a></p>
-                                        <p class="price">$110.00 <del>$200.00</del></p>
+                                        <p class="price">₹110.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
                                                 <li><i class="bi bi-star-fill"></i></li>
@@ -886,7 +886,7 @@
                                         <h6><a href="product-default.html" class="hover-underline">Vitamin c face
                                                 cleanser</a></h6>
                                         <p><a href="shop-list.html">Elysian Glow</a></p>
-                                        <p class="price">$105.00 <del>$200.00</del></p>
+                                        <p class="price">₹105.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
                                                 <li><i class="bi bi-star-fill"></i></li>
@@ -947,7 +947,7 @@
                                         <h6><a href="product-default.html" class="hover-underline">bleu chanel de
                                                 perfume</a></h6>
                                         <p><a href="shop-list.html">Velvet Aura</a></p>
-                                        <p class="price">$110.00</p>
+                                        <p class="price">₹110.00</p>
                                         <div class="rating">
                                             <ul>
                                                 <li><i class="bi bi-star-fill"></i></li>
@@ -1008,7 +1008,7 @@
                                         <h6><a href="product-default.html" class="hover-underline">les beiges eau de
                                                 lipistick</a></h6>
                                         <p><a href="shop-list.html">Aurora Belle</a></p>
-                                        <p class="price">$90.00 <del>$200.00</del></p>
+                                        <p class="price">₹90.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
                                                 <li><i class="bi bi-star-fill"></i></li>

@@ -1265,7 +1265,7 @@
                                         <div class="content">
                                             <div
                                                 class="price-and-btn d-flex align-items-center justify-content-between">
-                                                <span>$150 <del>$200</del></span>
+                                                <span>₹150 <del>₹200</del></span>
                                                 <button class="close-btn">
                                                     <i class="bi bi-x"></i>
                                                 </button>
@@ -1291,7 +1291,7 @@
                                         <div class="content">
                                             <div
                                                 class="price-and-btn d-flex align-items-center justify-content-between">
-                                                <span>$150 <del>$200</del></span>
+                                                <span>₹150 <del>₹200</del></span>
                                                 <button class="close-btn">
                                                     <i class="bi bi-x"></i>
                                                 </button>
@@ -1313,11 +1313,11 @@
                     <div class="cart-footer">
                         <div class="pricing-area">
                             <ul>
-                                <li><span>Sub Total</span><span>$468</span></li>
-                                <li><span>Offer (20%)</span><span>$56</span></li>
+                                <li><span>Sub Total</span><span>₹468</span></li>
+                                <li><span>Offer (20%)</span><span>₹56</span></li>
                             </ul>
                             <ul class="total">
-                                <li><span>Total</span><span>$425</span></li>
+                                <li><span>Total</span><span>₹425</span></li>
                             </ul>
                         </div>
                         <div class="footer-button">
