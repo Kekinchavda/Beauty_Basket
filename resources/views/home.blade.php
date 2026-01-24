@@ -726,7 +726,7 @@
                               <div class="quantity-color">
                                  <h6 class="widget-title">Quantity</h6>
                                  <div class="quantity-counter">
-                                    <a href="#" class="quantity__minus"><i class='bi bi-minus'></i></a>
+                                    <a href="#" class="quantity__minus"><i class='bi bi-dash'></i></a>
                                     <input name="quantity" type="text" class="quantity__input" value="01">
                                     <a href="#" class="quantity__plus"><i class='bi bi-plus'></i></a>
                                  </div>
