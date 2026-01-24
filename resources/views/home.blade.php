@@ -149,7 +149,7 @@
                      </div>
                      <div class="banner-footer-content">
                         <h5>Free Delivery</h5>
-                        <p>Free product delivary after $500 and get descount over the produce.</p>
+                        <p>Free product delivary after ₹500 and get descount over the produce.</p>
                      </div>
                   </div>
                </div>
@@ -331,7 +331,7 @@
                   <div class="product-card-content">
                      <h6><a href="product-default.html" class="hover-underline">Poutsicle Hydrating Lip Stain.</a></h6>
                      <p><a href="shop-list.html">REVLON</a></p>
-                     <p class="price">$150.00 <del>$200.00</del></p>
+                     <p class="price">₹150.00 <del>₹200.00</del></p>
                      <div class="rating">
                         <ul>
                            <li><i class="bi bi-star-fill"></i></li>
@@ -390,7 +390,7 @@
                   <div class="product-card-content">
                      <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
                      <p><a href="shop-list.html">Crystal</a></p>
-                     <p class="price">$150.00 <del>$200.00</del></p>
+                     <p class="price">₹150.00 <del>₹200.00</del></p>
                      <div class="rating">
                         <ul>
                            <li><i class="bi bi-star-fill"></i></li>
@@ -450,7 +450,7 @@
                   <div class="product-card-content">
                      <h6><a href="product-default.html" class="hover-underline">Velvet Red Charm</a></h6>
                      <p><a href="shop-list.html">Aqua Kiss</a></p>
-                     <p class="price">$150.00 <del>$200.00</del></p>
+                     <p class="price">₹150.00 <del>₹200.00</del></p>
                      <div class="rating">
                         <ul>
                            <li><i class="bi bi-star-fill"></i></li>
@@ -508,7 +508,7 @@
                   <div class="product-card-content">
                      <h6><a href="product-default.html" class="hover-underline">Hydrating Waves</a></h6>
                      <p><a href="shop-list.html">Sea Breeze</a></p>
-                     <p class="price">$150.00 - $200.00</p>
+                     <p class="price">₹150.00 - ₹200.00</p>
                      <ul class="product-size">
                         <li>250 ml</li>
                         <li>500 ml</li>
@@ -565,7 +565,7 @@
                   <div class="product-card-content">
                      <h6><a href="product-default.html" class="hover-underline">Organic Jojoba Blend</a></h6>
                      <p><a href="shop-list.html">Lash Luxe</a></p>
-                     <p class="price">$150.00 <del>$200.00</del></p>
+                     <p class="price">₹150.00 <del>₹200.00</del></p>
                      <div class="rating">
                         <ul>
                            <li><i class="bi bi-star-fill"></i></li>
@@ -625,7 +625,7 @@
                   <div class="product-card-content">
                      <h6><a href="product-default.html" class="hover-underline">Nourishing Herbal Cleanse</a></h6>
                      <p><a href="shop-list.html">Radiance</a></p>
-                     <p class="price">$150.00 <del>$200.00</del></p>
+                     <p class="price">₹150.00 <del>₹200.00</del></p>
                      <div class="rating">
                         <ul>
                            <li><i class="bi bi-star-fill"></i></li>
@@ -720,7 +720,7 @@
                               massa eget suscipit. Utani vitae
                               enim velit.</p>
                            <div class="price-area">
-                              <p class="price">$150.00 <del>$200.00</del></p>
+                              <p class="price">₹150.00 <del>₹200.00</del></p>
                            </div>
                            <div class="quantity-color-area">
                               <div class="quantity-color">
@@ -779,7 +779,7 @@
                                     <path
                                        d="M32.1428 27.4286H24.1428C23.8397 27.4286 23.549 27.3082 23.3347 27.0938C23.1203 26.8795 22.9999 26.5888 22.9999 26.2857C22.9999 25.9826 23.1203 25.6919 23.3347 25.4776C23.549 25.2633 23.8397 25.1429 24.1428 25.1429H31.2308L36.4239 2.28571H10.4285C10.1254 2.28571 9.83471 2.16531 9.62038 1.95098C9.40605 1.73665 9.28564 1.44596 9.28564 1.14286C9.28564 0.839753 9.40605 0.549063 9.62038 0.334735C9.83471 0.120408 10.1254 1.4297e-07 10.4285 1.4297e-07H37.8571C38.0286 -8.56294e-05 38.1979 0.0384228 38.3525 0.112672C38.507 0.186921 38.6429 0.295008 38.7501 0.42892C38.8572 0.562832 38.9328 0.719137 38.9713 0.886249C39.0098 1.05336 39.0102 1.227 38.9725 1.39429L33.2582 26.5371C33.2011 26.7903 33.0596 27.0165 32.8569 27.1785C32.6541 27.3405 32.4023 27.4287 32.1428 27.4286Z">
                                     </path>
-                                 </svg> Free worldwide shipping on all orders over $100
+                                 </svg> Free worldwide shipping on all orders over ₹100
                               </li>
                               <li class="product-delivers">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 40 40">
@@ -933,7 +933,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
                                  <p><a href="shop-list.html">Crystal Gleam</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -969,7 +969,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
                                  <p><a href="shop-list.html">REVLON</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1004,7 +1004,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
                                  <p><a href="shop-list.html">Crystal</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1039,7 +1039,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
                                  <p><a href="shop-list.html">Radiant</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1074,7 +1074,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
                                  <p><a href="shop-list.html">Radiance</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1108,7 +1108,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
                                  <p><a href="shop-list.html">Whispering</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1148,7 +1148,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
                                  <p><a href="shop-list.html">Crystal Gleam</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1182,7 +1182,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
                                  <p><a href="shop-list.html">REVLON</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1217,7 +1217,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
                                  <p><a href="shop-list.html">Crystal</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1252,7 +1252,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
                                  <p><a href="shop-list.html">Radiant</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1287,7 +1287,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
                                  <p><a href="shop-list.html">Radiance</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1321,7 +1321,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
                                  <p><a href="shop-list.html">Whispering</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1361,7 +1361,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
                                  <p><a href="shop-list.html">Crystal Gleam</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1395,7 +1395,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
                                  <p><a href="shop-list.html">REVLON</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1430,7 +1430,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
                                  <p><a href="shop-list.html">Crystal</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1465,7 +1465,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
                                  <p><a href="shop-list.html">Radiant</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1500,7 +1500,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
                                  <p><a href="shop-list.html">Radiance</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1534,7 +1534,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
                                  <p><a href="shop-list.html">Whispering</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1574,7 +1574,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
                                  <p><a href="shop-list.html">Crystal Gleam</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1608,7 +1608,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
                                  <p><a href="shop-list.html">REVLON</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1643,7 +1643,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
                                  <p><a href="shop-list.html">Crystal</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1678,7 +1678,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
                                  <p><a href="shop-list.html">Radiant</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1713,7 +1713,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
                                  <p><a href="shop-list.html">Radiance</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1747,7 +1747,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
                                  <p><a href="shop-list.html">Whispering</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1787,7 +1787,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
                                  <p><a href="shop-list.html">Crystal Gleam</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1821,7 +1821,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
                                  <p><a href="shop-list.html">REVLON</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1856,7 +1856,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
                                  <p><a href="shop-list.html">Crystal</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1891,7 +1891,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
                                  <p><a href="shop-list.html">Radiant</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1926,7 +1926,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
                                  <p><a href="shop-list.html">Radiance</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -1960,7 +1960,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
                                  <p><a href="shop-list.html">Whispering</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2000,7 +2000,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
                                  <p><a href="shop-list.html">Crystal Gleam</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2034,7 +2034,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
                                  <p><a href="shop-list.html">REVLON</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2069,7 +2069,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
                                  <p><a href="shop-list.html">Crystal</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2104,7 +2104,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
                                  <p><a href="shop-list.html">Radiant</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2139,7 +2139,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
                                  <p><a href="shop-list.html">Radiance</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2173,7 +2173,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
                                  <p><a href="shop-list.html">Whispering</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2213,7 +2213,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
                                  <p><a href="shop-list.html">Crystal Gleam</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2247,7 +2247,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
                                  <p><a href="shop-list.html">REVLON</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2282,7 +2282,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
                                  <p><a href="shop-list.html">Crystal</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2317,7 +2317,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
                                  <p><a href="shop-list.html">Radiant</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2352,7 +2352,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
                                  <p><a href="shop-list.html">Radiance</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2386,7 +2386,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
                                  <p><a href="shop-list.html">Whispering</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2426,7 +2426,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
                                  <p><a href="shop-list.html">Crystal Gleam</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2460,7 +2460,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
                                  <p><a href="shop-list.html">REVLON</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2495,7 +2495,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
                                  <p><a href="shop-list.html">Crystal</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2530,7 +2530,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
                                  <p><a href="shop-list.html">Radiant</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2565,7 +2565,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
                                  <p><a href="shop-list.html">Radiance</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2599,7 +2599,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
                                  <p><a href="shop-list.html">Whispering</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2639,7 +2639,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
                                  <p><a href="shop-list.html">Crystal Gleam</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2673,7 +2673,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
                                  <p><a href="shop-list.html">REVLON</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2708,7 +2708,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
                                  <p><a href="shop-list.html">Crystal</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2743,7 +2743,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
                                  <p><a href="shop-list.html">Radiant</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2778,7 +2778,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
                                  <p><a href="shop-list.html">Radiance</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2812,7 +2812,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
                                  <p><a href="shop-list.html">Whispering</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -2951,7 +2951,7 @@
                            <div class="product-card-content">
                               <h6><a href="product-default.html" class="hover-underline">Soothing Aloe Bliss</a></h6>
                               <p><a href="shop-list.html">Radiant Glow</a></p>
-                              <p class="price">$150.00 <del>$200.00</del></p>
+                              <p class="price">₹150.00 <del>₹200.00</del></p>
                               <div class="rating">
                                  <ul>
                                     <li><i class="bi bi-star-fill"></i></li>
@@ -3012,7 +3012,7 @@
                            <div class="product-card-content">
                               <h6><a href="product-default.html" class="hover-underline">Calming Skin Relief</a></h6>
                               <p><a href="shop-list.html">Silk Glow</a></p>
-                              <p class="price">$150.00 <del>$200.00</del></p>
+                              <p class="price">₹150.00 <del>₹200.00</del></p>
                               <div class="rating">
                                  <ul>
                                     <li><i class="bi bi-star-fill"></i></li>
@@ -3074,7 +3074,7 @@
                            <div class="product-card-content">
                               <h6><a href="product-default.html" class="hover-underline">Timeless Amber Essence</a></h6>
                               <p><a href="shop-list.html">Lash Luxe</a></p>
-                              <p class="price">$150.00 <del>$200.00</del></p>
+                              <p class="price">₹150.00 <del>₹200.00</del></p>
                               <div class="rating">
                                  <ul>
                                     <li><i class="bi bi-star-fill"></i></li>
@@ -3135,7 +3135,7 @@
                            <div class="product-card-content">
                               <h6><a href="product-default.html" class="hover-underline">Crimson Dreamy Hue</a></h6>
                               <p><a href="shop-list.html">Crystal Clear</a></p>
-                              <p class="price">$150.00 <del>$200.00</del></p>
+                              <p class="price">₹150.00 <del>₹200.00</del></p>
                               <div class="rating">
                                  <ul>
                                     <li><i class="bi bi-star-fill"></i></li>
@@ -3466,7 +3466,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Mystic Woods Aroma</a></h6>
                                  <p><a href="shop-list.html">Whispering</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -3499,7 +3499,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Dewy Fresh Face</a></h6>
                                  <p><a href="shop-list.html">Pure Bliss</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -3532,7 +3532,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Rose Petal Flush</a></h6>
                                  <p><a href="shop-list.html">Velvet Tint</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -3566,7 +3566,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Hydrating Waves</a>
                                  </h6>
                                  <p><a href="shop-list.html">Crystal Gleam</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -3600,7 +3600,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Velvet Red Charm</a></h6>
                                  <p><a href="shop-list.html">Radiant</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -3634,7 +3634,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Intensive Cream</a>
                                  </h6>
                                  <p><a href="shop-list.html">Nectar Nouri</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -3667,7 +3667,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Mystic Woods Aroma</a></h6>
                                  <p><a href="shop-list.html">Whispering</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -3700,7 +3700,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Dewy Fresh Face</a></h6>
                                  <p><a href="shop-list.html">Pure Bliss</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -3733,7 +3733,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Rose Petal Flush</a></h6>
                                  <p><a href="shop-list.html">Velvet Tint</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -3767,7 +3767,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Hydrating Waves</a>
                                  </h6>
                                  <p><a href="shop-list.html">Crystal Gleam</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -3800,7 +3800,7 @@
                               <div class="product-card-content">
                                  <h6><a href="product-default.html" class="hover-underline">Velvet Red Charm</a></h6>
                                  <p><a href="shop-list.html">Radiant</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>
@@ -3834,7 +3834,7 @@
                                  <h6><a href="product-default.html" class="hover-underline">Intensive Cream</a>
                                  </h6>
                                  <p><a href="shop-list.html">Nectar Nouri</a></p>
-                                 <p class="price">$150.00 <del>$200.00</del></p>
+                                 <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
                                        <li><i class="bi bi-star-fill"></i></li>

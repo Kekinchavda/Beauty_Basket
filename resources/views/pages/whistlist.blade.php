@@ -43,7 +43,7 @@
                                     </td>
                                     <td data-label="Price">
                                         <p class="price">
-                                            <del>$40.00</del> $30.00
+                                            <del>₹40.00</del> ₹30.00
                                         </p>
                                     </td>
                                     <td data-label="Stock">
@@ -70,7 +70,7 @@
                                     </td>
                                     <td data-label="Price">
                                         <p class="price">
-                                            <del>$40.00</del> $25.00
+                                            <del>₹40.00</del> ₹25.00
                                         </p>
                                     </td>
                                     <td data-label="Stock">
@@ -97,7 +97,7 @@
                                     </td>
                                     <td data-label="Price">
                                         <p class="price">
-                                            <del>$40.00</del> $32.00
+                                            <del>₹40.00</del> ₹32.00
                                         </p>
                                     </td>
                                     <td data-label="Stock">
@@ -124,7 +124,7 @@
                                     </td>
                                     <td data-label="Price">
                                         <p class="price">
-                                            <del>$40.00</del> $27.00
+                                            <del>₹40.00</del> ₹27.00
                                         </p>
                                     </td>
                                     <td data-label="Stock">

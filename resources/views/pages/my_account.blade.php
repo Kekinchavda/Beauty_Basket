@@ -339,7 +339,7 @@
                                             </td>
                                             <td data-label="Order ID">#4ce345c3e</td>
                                             <td data-label="Product Details">Eau De Blue Perfume</td>
-                                            <td data-label="price">$40.00</td>
+                                            <td data-label="price">₹40.00</td>
                                             <td data-label="Status" class="text-green">Shipped</td>
                                         </tr>
                                         <tr>
@@ -348,7 +348,7 @@
                                             </td>
                                             <td data-label="Order ID">#4ce3533e</td>
                                             <td data-label="Product Details">Smooth Makeup Box</td>
-                                            <td data-label="price">$25.00</td>
+                                            <td data-label="price">₹25.00</td>
                                             <td data-label="Status" class="text-red">Pending</td>
                                         </tr>
                                         <tr>
@@ -357,7 +357,7 @@
                                             </td>
                                             <td data-label="Order ID">#8ce3533e</td>
                                             <td data-label="Product Details">Modern Red Lipstick </td>
-                                            <td data-label="price">$32.00</td>
+                                            <td data-label="price">₹32.00</td>
                                             <td data-label="Status" class="text-red">Pending</td>
                                         </tr>
                                         <tr>
@@ -366,7 +366,7 @@
                                             </td>
                                             <td data-label="Order ID">#8ce3533e</td>
                                             <td data-label="Product Details">New Botanical Shampoo</td>
-                                            <td data-label="price">$27.00</td>
+                                            <td data-label="price">₹27.00</td>
                                             <td data-label="Status" class="text-green">Shipped</td>
                                         </tr>
                                     </tbody>
