@@ -1,0 +1,53 @@
+@extends('layouts.app')
+
+@section('title', 'Contact Us | Beauty Basket')
+
+@section('content')
+    <!-- category on top area -->
+    <x-breadcrumb :breadcrumbs="[
+            ['title' => 'Shop', 'url' => route('shop.list')],
+            ['title' => 'My Account', 'url' => route('my.account')],
+        ]" />
+    <!-- category on top area -->
+
+    <!-- Star Order-tracking section -->
+    <div class="order-tracking">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="order-traking-area two mt-110 mb-110">
+                        <div class="section-title text-center">
+                            <h2>Track Your Order</h2>
+                            <p>To track your order please enter your Order ID in the box below and press the "Track" button.
+                                This given to you on your receipt and in the confirmation email you should have received.
+                            </p>
+                        </div>
+                        <form>
+                            <div class="row justify-content-center">
+                                <div class="col-md-12 mb-25">
+                                    <div class="form-inner">
+                                        <label>Order ID</label>
+                                        <input type="text" placeholder="Enter your order ID">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-inner">
+                                        <label>Billing Email</label>
+                                        <input type="text" placeholder="Enter your email">
+                                    </div>
+                                </div>
+                                <div class="col-md-8 d-flex justify-content-center">
+                                    <div class="button-group">
+                                        <button type="submit"
+                                            class="primary-btn3 black-bg  hover-btn5 hover-white">Track</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Order-tracking section -->
+@endsection

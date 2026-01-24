@@ -6,7 +6,7 @@
                     <p>*New Winter Product 2023 <a href="{{ route('shop.list') }}">Shop Now*</a></p>
                 </div>
                 <div class="company-logo">
-                    <a href="index.html"><img src="{{ asset('assets/img/logo.svg') }}" alt=""></a>
+                    <a href="{{route('index')}}"><img style="width:40px; height:auto;" src="{{ asset('assets/img/file.enc') }}" alt=""></a>
                 </div>
                 <div class="search-area">
                     <form>
@@ -100,7 +100,7 @@
     <div
         class="container-xxl container-fluid position-relative  d-flex flex-nowrap align-items-center justify-content-between">
         <div class="header-logo d-lg-none d-flex">
-            <a href="index.html"><img alt="image" class="img-fluid" src="{{ asset('assets/img/logo.svg') }}"></a>
+            <a href="{{ route('index') }}"><img  width="40px" height="auto" alt="image" class="img-fluid" src="{{ asset('assets/img/file.enc') }}"></a>
         </div>
         <div class="category-dropdown">
             <div class="category-button">
@@ -111,7 +111,7 @@
                 <ul>
                     <li><a href="{{ route('index') }}">Home</a></li>
                     <li><a href="{{ route('our.brand') }}">Our Brands</a></li>
-                    <li><a href="#">Skin Care</a></li>
+                    <li><a href="{{ route('shop.list') }}">Skin Care</a></li>
                     <li class="category-has-child">
                         <a href="#">Personal Care </a>
                         <i class="bi bi-chevron-right"></i>
@@ -138,18 +138,18 @@
                             <li><a href="#">Face Wash</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Summer Product</a></li>
-                    <li><a href="#">Kids & Baby</a></li>
-                    <li class="category-has-child">
+                    <!-- <li><a href="#">Summer Product</a></li> -->
+                    <!-- <li><a href="#">Kids & Baby</a></li> -->
+                    <!-- <li class="category-has-child">
                         <a href="#">Maternity Care</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
         <div class="main-menu">
             <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
                 <div class="mobile-logo-wrap">
-                    <a href="index.html"><img alt="image" src="{{ asset('assets/img/logo.svg') }}"></a>
+                    <a href="{{ route('index') }}"><img alt="image" width="40px" height="auto" src="{{ asset('assets/img/file.enc') }}"></a>
                 </div>
             </div>
             <ul class="menu-list">
@@ -998,7 +998,7 @@
                                                 <h6>Cart & Checkout</h6>
                                                 <ul>
                                                     <li>
-                                                        <a href="cart.html">Cart Page</a>
+                                                        <a href="{{ route('cart') }}">Cart Page</a>
                                                     </li>
                                                     <li>
                                                         <a href="checkout.html">Checkout</a>
@@ -1127,7 +1127,7 @@
                                         <h6>Product Gallery</h6>
                                         <ul>
                                             <li>
-                                                <a href="product-default.html">Product Default</a>
+                                                <a href="{{ route('product.default') }}">Product Default</a>
                                             </li>
                                             <li>
                                                 <a href="product-thumb-left.html">Product Thumbnail Left</a>
@@ -1163,7 +1163,7 @@
                     <a href="#" class="drop-down">Pages</a><i class="bi bi-plus dropdown-icon"></i>
                     <ul class="sub-menu">
                         <li>
-                            <a href="about-us.html">About Us</a>
+                            <a href="{{ route('about.us') }}">About Us</a>
                         </li>
                         <li>
                             <a href="{{ route('our.brand') }}">Our Brand</a>
