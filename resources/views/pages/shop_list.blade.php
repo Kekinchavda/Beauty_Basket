@@ -111,7 +111,7 @@
                                         </div>
                                     </div>
                                     <div class="shop-details-btn">
-                                        <a href="shop-list.html" class="primary-btn1 hover-btn3">*Buy Now*</a>
+                                        <a href="{{ route('shop.list') }}" class="primary-btn1 hover-btn3">*Buy Now*</a>
                                         <a href="#" class="primary-btn1 style-3 hover-btn4">*Add to Cart*</a>
                                     </div>
                                     <div class="product-info">
@@ -171,7 +171,7 @@
                                     <div class="compare-wishlist-area">
                                         <ul>
                                             <li>
-                                                <a href="whistlist.html">
+                                                <a href="{{ route('whistlist') }}">
                                                     <span>
                                                         <svg width="11" height="11" viewBox="0 0 18 18"
                                                             xmlns="http://www.w3.org/2000/svg">
@@ -276,7 +276,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 item">
                                 <div class="product-card style-3 hover-btn">
                                     <div class="product-card-img double-img">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="assets/img/home1/product-img-4.png" alt="" class="img1">
                                             <img src="assets/img/home1/product-img-7.png" alt="" class="img2">
                                             <div class="countdown-timer">
@@ -302,14 +302,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -334,9 +334,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">Botanical hair Shampoo
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">Botanical hair Shampoo
                                             </a></h6>
-                                        <p><a href="shop-list.html">Radiant Vibe</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Radiant Vibe</a></p>
                                         <p class="price">₹150.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
@@ -355,7 +355,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 item">
                                 <div class="product-card style-3 hover-btn">
                                     <div class="product-card-img">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="assets/img/home1/product-img-5.png" alt="">
                                             <div class="batch">
                                                 <span class="new">New</span>
@@ -373,7 +373,7 @@
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -398,9 +398,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">Bamboo Fibers
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">Bamboo Fibers
                                                 Shampoo</a></h6>
-                                        <p><a href="shop-list.html">Glow Flair</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Glow Flair</a></p>
                                         <p class="price">₹145.00</p>
                                         <div class="rating">
                                             <ul>
@@ -419,7 +419,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 item">
                                 <div class="product-card style-3 hover-btn">
                                     <div class="product-card-img">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="assets/img/home1/product-img-6.png" alt="">
                                             <div class="batch">
                                                 <span>-14%</span>
@@ -434,7 +434,7 @@
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -459,9 +459,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">Organic vitamin
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">Organic vitamin
                                                 cream</a></h6>
-                                        <p><a href="shop-list.html">pantene</a></p>
+                                        <p><a href="{{ route('shop.list') }}">pantene</a></p>
                                         <p class="price">₹140.00 <del>₹200.00</del></p>
                                         <ul class="product-size">
                                             <li>250 ml</li>
@@ -476,7 +476,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 item">
                                 <div class="product-card style-3 hover-btn">
                                     <div class="product-card-img">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="assets/img/home1/product-img-15.png" alt="">
                                             <div class="batch">
                                                 <span>-10%</span>
@@ -484,14 +484,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -516,9 +516,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">Eau de perfume for
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">Eau de perfume for
                                                 women</a></h6>
-                                        <p><a href="shop-list.html">Belle Luxe</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Belle Luxe</a></p>
                                         <p class="price">₹135.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
@@ -537,7 +537,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 item">
                                 <div class="product-card style-3 hover-btn">
                                     <div class="product-card-img double-img">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="assets/img/home1/product-img-16.png" alt="" class="img1">
                                             <img src="assets/img/home1/product-img-3.png" alt="" class="img2">
                                             <div class="batch">
@@ -546,14 +546,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -578,9 +578,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">Poutsicle Hydrating Lip
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">Poutsicle Hydrating Lip
                                                 Stain.</a></h6>
-                                        <p><a href="shop-list.html">Elevate Glow</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Elevate Glow</a></p>
                                         <p class="price">₹130.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
@@ -599,7 +599,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 item">
                                 <div class="product-card style-3 hover-btn">
                                     <div class="product-card-img">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="assets/img/home1/product-img-7.png" alt="">
                                             <div class="batch">
                                                 <span class="new">New</span>
@@ -607,14 +607,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -639,9 +639,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">huile de Hemp seed
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">huile de Hemp seed
                                                 olive oil</a></h6>
-                                        <p><a href="shop-list.html">REVLON</a></p>
+                                        <p><a href="{{ route('shop.list') }}">REVLON</a></p>
                                         <p class="price">₹125.00</p>
                                         <div class="rating">
                                             <ul>
@@ -660,7 +660,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 item">
                                 <div class="product-card style-3 hover-btn">
                                     <div class="product-card-img">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="assets/img/home1/product-img-21.png" alt="">
                                             <div class="batch">
                                                 <span class="new">New</span>
@@ -668,14 +668,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -700,9 +700,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">curology face
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">curology face
                                                 cleanser</a></h6>
-                                        <p><a href="shop-list.html">Pure Glam</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Pure Glam</a></p>
                                         <p class="price">₹120.00</p>
                                         <div class="rating">
                                             <ul>
@@ -721,7 +721,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 item">
                                 <div class="product-card style-3 hover-btn">
                                     <div class="product-card-img">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="assets/img/home1/product-img-14.png" alt="">
                                             <div class="batch">
                                                 <span>-18%</span>
@@ -729,14 +729,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -761,9 +761,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">Coconut balm skin
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">Coconut balm skin
                                                 salve</a></h6>
-                                        <p><a href="shop-list.html">Divine Aura</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Divine Aura</a></p>
                                         <p class="price">₹115.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
@@ -782,7 +782,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 item">
                                 <div class="product-card style-3 hover-btn">
                                     <div class="product-card-img">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="assets/img/home1/product-img-9.png" alt="">
                                             <div class="batch">
                                                 <span>-15%</span>
@@ -790,14 +790,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -822,9 +822,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">Cucumber Green Tea</a>
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">Cucumber Green Tea</a>
                                         </h6>
-                                        <p><a href="shop-list.html">Luminara</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Luminara</a></p>
                                         <p class="price">₹110.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
@@ -843,7 +843,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 item">
                                 <div class="product-card style-3 hover-btn">
                                     <div class="product-card-img">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="assets/img/home1/product-img-11.png" alt="">
                                             <div class="batch">
                                                 <span>-10%</span>
@@ -851,14 +851,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -883,9 +883,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">Vitamin c face
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">Vitamin c face
                                                 cleanser</a></h6>
-                                        <p><a href="shop-list.html">Elysian Glow</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Elysian Glow</a></p>
                                         <p class="price">₹105.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
@@ -904,7 +904,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 item">
                                 <div class="product-card style-3 hover-btn">
                                     <div class="product-card-img">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="assets/img/home1/product-img-18.png" alt="">
                                             <div class="batch">
                                                 <span class="new">New</span>
@@ -912,14 +912,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -944,9 +944,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">bleu chanel de
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">bleu chanel de
                                                 perfume</a></h6>
-                                        <p><a href="shop-list.html">Velvet Aura</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Velvet Aura</a></p>
                                         <p class="price">₹110.00</p>
                                         <div class="rating">
                                             <ul>
@@ -965,7 +965,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 item">
                                 <div class="product-card style-3 hover-btn">
                                     <div class="product-card-img">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="assets/img/home1/product-img-20.png" alt="">
                                             <div class="batch">
                                                 <span>-15%</span>
@@ -973,14 +973,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -1005,9 +1005,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">les beiges eau de
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">les beiges eau de
                                                 lipistick</a></h6>
-                                        <p><a href="shop-list.html">Aurora Belle</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Aurora Belle</a></p>
                                         <p class="price">₹90.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
