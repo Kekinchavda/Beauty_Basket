@@ -27,7 +27,7 @@
                                  <h1>Healthy skin cannot be rushed.</h1>
                                  <p>Whatever your summer looks like, bring your own heat with up to 25% off Lumin Brand.
                                  </p>
-                                 <a href="shop-list.html" class="primary-btn1 hover-btn3">*Shop Now* </a>
+                                 <a href="{{ route('shop.list') }}" class="primary-btn1 hover-btn3">*Shop Now* </a>
                               </div>
                            </div>
                            <div class="banner-right-wrapper">
@@ -57,7 +57,7 @@
                                  <h1>Skin wellness takes gentle time.</h1>
                                  <p>Whatever your summer looks like, bring your own heat with up to 25% off Lumin Brand.
                                  </p>
-                                 <a href="shop-list.html" class="primary-btn1 hover-btn3">*Shop Now* </a>
+                                 <a href="{{ route('shop.list') }}" class="primary-btn1 hover-btn3">*Shop Now* </a>
                               </div>
                            </div>
                            <div class="banner-right-wrapper">
@@ -85,7 +85,7 @@
                                  <h1>Glow requires gradual nurturing.</h1>
                                  <p>Whatever your summer looks like, bring your own heat with up to 25% off Lumin Brand.
                                  </p>
-                                 <a href="shop-list.html" class="primary-btn1 hover-btn3">*Shop Now* </a>
+                                 <a href="{{ route('shop.list') }}" class="primary-btn1 hover-btn3">*Shop Now* </a>
                               </div>
                            </div>
                            <div class="banner-right-wrapper">
@@ -112,7 +112,7 @@
                                  <h1>Nurture skin for lasting health.</h1>
                                  <p>Whatever your summer looks like, bring your own heat with up to 25% off Lumin Brand.
                                  </p>
-                                 <a href="shop-list.html" class="primary-btn1 hover-btn3">*Shop Now* </a>
+                                 <a href="{{ route('shop.list') }}" class="primary-btn1 hover-btn3">*Shop Now* </a>
                               </div>
                            </div>
                            <div class="banner-right-wrapper">
@@ -216,7 +216,7 @@
          <div class="row gy-4 justify-content-center">
             <div class="col-lg-4 col-md-6">
                <div class="choose-product-card hover-img style-2">
-                  <a href="shop-list.html">
+                  <a href="{{ route('shop.list') }}">
                      <img src="{{ asset('assets/img/home1/choose-product-card-img1.png') }}" alt="">
                   </a>
                   <div class="choose-product-card-content">
@@ -227,7 +227,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                <div class="choose-product-card hover-img style-2">
-                  <a href="shop-list.html">
+                  <a href="{{ route('shop.list') }}">
                      <img src="{{ asset('assets/img/home1/choose-product-card-img2.png') }}" alt="">
                   </a>
                   <div class="choose-product-card-content">
@@ -238,7 +238,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                <div class="choose-product-card hover-img style-2">
-                  <a href="shop-list.html">
+                  <a href="{{ route('shop.list') }}">
                      <img src="{{ asset('assets/img/home1/choose-product-card-img3.png') }}" alt="">
                   </a>
                   <div class="choose-product-card-content style-2">
@@ -272,7 +272,7 @@
             <div class="col-lg-4 col-md-6">
                <div class="product-card hover-btn">
                   <div class="product-card-img double-img">
-                     <a href="product-default.html">
+                     <a href="{{ route('product.default') }}">
                         <img src="{{ asset('assets/img/home1/product-img-1.png') }}" alt="" class="img1">
                         <img src="{{ asset('assets/img/home1/product-img-4.png') }}" alt="" class="img2">
                         <div class="countdown-timer">
@@ -299,14 +299,14 @@
                      </a>
                      <div class="overlay">
                         <div class="cart-area">
-                           <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add To
+                           <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add To
                               Cart</a>
                         </div>
                      </div>
                      <div class="view-and-favorite-area">
                         <ul>
                            <li>
-                              <a href="whistlist.html">
+                              <a href="{{ route('whistlist') }}">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                     <g clip-path="url(#clip0_168_378)">
                                        <path
@@ -329,8 +329,8 @@
                      </div>
                   </div>
                   <div class="product-card-content">
-                     <h6><a href="product-default.html" class="hover-underline">Poutsicle Hydrating Lip Stain.</a></h6>
-                     <p><a href="shop-list.html">REVLON</a></p>
+                     <h6><a href="{{ route('product.default') }}" class="hover-underline">Poutsicle Hydrating Lip Stain.</a></h6>
+                     <p><a href="{{ route('shop.list') }}">REVLON</a></p>
                      <p class="price">₹150.00 <del>₹200.00</del></p>
                      <div class="rating">
                         <ul>
@@ -349,7 +349,7 @@
             <div class="col-lg-4 col-md-6">
                <div class="product-card hover-btn">
                   <div class="product-card-img">
-                     <a href="product-default.html">
+                     <a href="{{ route('product.default') }}">
                         <img src="{{ asset('assets/img/home1/product-img-8.png') }}" alt="">
                         <div class="batch">
                            <span>-15%</span>
@@ -357,14 +357,14 @@
                      </a>
                      <div class="overlay">
                         <div class="cart-area">
-                           <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add To
+                           <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add To
                               Cart</a>
                         </div>
                      </div>
                      <div class="view-and-favorite-area">
                         <ul>
                            <li>
-                              <a href="whistlist.html">
+                              <a href="{{ route('whistlist') }}">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                     <g clip-path="url(#clip0_168_378)">
                                        <path
@@ -388,8 +388,8 @@
                      </div>
                   </div>
                   <div class="product-card-content">
-                     <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
-                     <p><a href="shop-list.html">Crystal</a></p>
+                     <h6><a href="{{ route('product.default') }}" class="hover-underline">Vivid Eye Pencil</a></h6>
+                     <p><a href="{{ route('shop.list') }}">Crystal</a></p>
                      <p class="price">₹150.00 <del>₹200.00</del></p>
                      <div class="rating">
                         <ul>
@@ -408,7 +408,7 @@
             <div class="col-lg-4 col-md-6">
                <div class="product-card hover-btn">
                   <div class="product-card-img double-img">
-                     <a href="product-default.html">
+                     <a href="{{ route('product.default') }}">
                         <img src="{{ asset('assets/img/home1/product-img-3.png') }}" alt="" class="img1">
                         <img src="{{ asset('assets/img/home1/product-img-20.png') }}" alt="" class="img2">
                         <div class="batch">
@@ -417,14 +417,14 @@
                      </a>
                      <div class="overlay">
                         <div class="cart-area">
-                           <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add To
+                           <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add To
                               Cart</a>
                         </div>
                      </div>
                      <div class="view-and-favorite-area">
                         <ul>
                            <li>
-                              <a href="whistlist.html">
+                              <a href="{{ route('whistlist') }}">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                     <g clip-path="url(#clip0_168_378)">
                                        <path
@@ -448,8 +448,8 @@
                      </div>
                   </div>
                   <div class="product-card-content">
-                     <h6><a href="product-default.html" class="hover-underline">Velvet Red Charm</a></h6>
-                     <p><a href="shop-list.html">Aqua Kiss</a></p>
+                     <h6><a href="{{ route('product.default') }}" class="hover-underline">Velvet Red Charm</a></h6>
+                     <p><a href="{{ route('shop.list') }}">Aqua Kiss</a></p>
                      <p class="price">₹150.00 <del>₹200.00</del></p>
                      <div class="rating">
                         <ul>
@@ -468,7 +468,7 @@
             <div class="col-lg-4 col-md-6">
                <div class="product-card hover-btn">
                   <div class="product-card-img">
-                     <a href="product-default.html">
+                     <a href="{{ route('product.default') }}">
                         <img src="{{ asset('assets/img/home1/product-img-4.png') }}" alt="">
                         <div class="batch">
                            <span>-15%</span>
@@ -482,7 +482,7 @@
                      <div class="view-and-favorite-area">
                         <ul>
                            <li>
-                              <a href="whistlist.html">
+                              <a href="{{ route('whistlist') }}">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                     <g clip-path="url(#clip0_168_378)">
                                        <path
@@ -506,8 +506,8 @@
                      </div>
                   </div>
                   <div class="product-card-content">
-                     <h6><a href="product-default.html" class="hover-underline">Hydrating Waves</a></h6>
-                     <p><a href="shop-list.html">Sea Breeze</a></p>
+                     <h6><a href="{{ route('product.default') }}" class="hover-underline">Hydrating Waves</a></h6>
+                     <p><a href="{{ route('shop.list') }}">Sea Breeze</a></p>
                      <p class="price">₹150.00 - ₹200.00</p>
                      <ul class="product-size">
                         <li>250 ml</li>
@@ -522,7 +522,7 @@
             <div class="col-lg-4 col-md-6">
                <div class="product-card hover-btn">
                   <div class="product-card-img">
-                     <a href="product-default.html">
+                     <a href="{{ route('product.default') }}">
                         <img src="{{ asset('assets/img/home1/product-img-5.png') }}" alt="">
                         <div class="batch">
                            <span>-15%</span>
@@ -539,7 +539,7 @@
                      <div class="view-and-favorite-area">
                         <ul>
                            <li>
-                              <a href="whistlist.html">
+                              <a href="{{ route('whistlist') }}">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                     <g clip-path="url(#clip0_168_378)">
                                        <path
@@ -563,8 +563,8 @@
                      </div>
                   </div>
                   <div class="product-card-content">
-                     <h6><a href="product-default.html" class="hover-underline">Organic Jojoba Blend</a></h6>
-                     <p><a href="shop-list.html">Lash Luxe</a></p>
+                     <h6><a href="{{ route('product.default') }}" class="hover-underline">Organic Jojoba Blend</a></h6>
+                     <p><a href="{{ route('shop.list') }}">Lash Luxe</a></p>
                      <p class="price">₹150.00 <del>₹200.00</del></p>
                      <div class="rating">
                         <ul>
@@ -583,7 +583,7 @@
             <div class="col-lg-4 col-md-6">
                <div class="product-card hover-btn">
                   <div class="product-card-img double-img">
-                     <a href="product-default.html">
+                     <a href="{{ route('product.default') }}">
                         <img src="{{ asset('assets/img/home1/product-img-6.png') }}" alt="" class="img1">
                         <img src="{{ asset('assets/img/home1/product-img-7.png') }}" alt="" class="img2">
                         <div class="batch">
@@ -592,14 +592,14 @@
                      </a>
                      <div class="overlay">
                         <div class="cart-area">
-                           <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add To
+                           <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add To
                               Cart</a>
                         </div>
                      </div>
                      <div class="view-and-favorite-area">
                         <ul>
                            <li>
-                              <a href="whistlist.html">
+                              <a href="{{ route('whistlist') }}">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                     <g clip-path="url(#clip0_168_378)">
                                        <path
@@ -623,8 +623,8 @@
                      </div>
                   </div>
                   <div class="product-card-content">
-                     <h6><a href="product-default.html" class="hover-underline">Nourishing Herbal Cleanse</a></h6>
-                     <p><a href="shop-list.html">Radiance</a></p>
+                     <h6><a href="{{ route('product.default') }}" class="hover-underline">Nourishing Herbal Cleanse</a></h6>
+                     <p><a href="{{ route('shop.list') }}">Radiance</a></p>
                      <p class="price">₹150.00 <del>₹200.00</del></p>
                      <div class="rating">
                         <ul>
@@ -744,8 +744,8 @@
                               </div>
                            </div>
                            <div class="shop-details-btn">
-                              <a href="shop-list.html" class="primary-btn1 hover-btn3">*Buy Now*</a>
-                              <a href="#" class="primary-btn1 style-3 hover-btn4">*Add to Cart*</a>
+                              <a href="{{ route('shop.list') }}" class="primary-btn1 hover-btn3">*Buy Now*</a>
+                              <a href="{{(route('cart'))}}" class="primary-btn1 style-3 hover-btn4">*Add to Cart*</a>
                            </div>
                            <div class="product-info">
                               <ul class="product-info-list">
@@ -801,7 +801,7 @@
                            <div class="compare-wishlist-area">
                               <ul>
                                  <li>
-                                    <a href="whistlist.html">
+                                    <a href="{{ route('whistlist') }}">
                                        <span>
                                           <svg width="11" height="11" viewBox="0 0 18 18"
                                              xmlns="http://www.w3.org/2000/svg">
@@ -904,7 +904,7 @@
                         </svg>
                         <h6>30% <br><span>off</span></h6>
                      </div>
-                     <a href="shop-list.html" class="buy-btn hover-btn4">*Buy Now*</a>
+                     <a href="{{ route('shop.list') }}" class="buy-btn hover-btn4">*Buy Now*</a>
                   </div>
                </div>
             </div>
@@ -915,7 +915,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-7.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-22.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -924,15 +924,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Crystal Gleam</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Crystal Gleam</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -951,7 +951,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-8.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -967,8 +967,8 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
-                                 <p><a href="shop-list.html">REVLON</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Vivid Eye Pencil</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">REVLON</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -987,7 +987,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-9.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-21.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -996,14 +996,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
-                                 <p><a href="shop-list.html">Crystal</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Firming Night Cream</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Crystal</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1022,7 +1022,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-10.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1030,15 +1030,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Radiant</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Radiant</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1057,7 +1057,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-11.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-14.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1066,14 +1066,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
-                                 <p><a href="shop-list.html">Radiance</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Age-Defying Miracle</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Radiance</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1092,7 +1092,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-12.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1100,14 +1100,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
-                                 <p><a href="shop-list.html">Whispering</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Oil-Control Pressed</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Whispering</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1130,7 +1130,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-7.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-22.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1139,15 +1139,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Crystal Gleam</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Crystal Gleam</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1166,7 +1166,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-8.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1174,14 +1174,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
-                                 <p><a href="shop-list.html">REVLON</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Vivid Eye Pencil</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">REVLON</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1200,7 +1200,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-9.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-21.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1209,14 +1209,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
-                                 <p><a href="shop-list.html">Crystal</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Firming Night Cream</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Crystal</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1235,7 +1235,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-10.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1243,15 +1243,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Radiant</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Radiant</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1270,7 +1270,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{asset('assets/img/home1/product-img-11.png')}}" alt="" class="img1">
                                     <img src="{{asset('assets/img/home1/product-img-14.png')}}" alt="" class="img2">
                                     <div class="batch">
@@ -1279,14 +1279,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
-                                 <p><a href="shop-list.html">Radiance</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Age-Defying Miracle</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Radiance</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1305,7 +1305,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-12.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1313,14 +1313,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
-                                 <p><a href="shop-list.html">Whispering</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Oil-Control Pressed</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Whispering</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1343,7 +1343,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-7.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-22.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1352,15 +1352,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Crystal Gleam</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Crystal Gleam</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1379,7 +1379,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-8.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1387,14 +1387,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
-                                 <p><a href="shop-list.html">REVLON</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Vivid Eye Pencil</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">REVLON</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1413,7 +1413,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-9.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-21.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1422,14 +1422,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
-                                 <p><a href="shop-list.html">Crystal</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Firming Night Cream</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Crystal</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1448,7 +1448,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-10.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1456,15 +1456,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Radiant</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Radiant</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1483,7 +1483,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-11.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-14.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1492,14 +1492,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
-                                 <p><a href="shop-list.html">Radiance</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Age-Defying Miracle</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Radiance</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1518,7 +1518,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-12.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1526,14 +1526,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
-                                 <p><a href="shop-list.html">Whispering</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Oil-Control Pressed</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Whispering</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1556,7 +1556,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-7.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-22.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1565,15 +1565,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Crystal Gleam</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Crystal Gleam</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1592,7 +1592,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-8.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1600,14 +1600,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
-                                 <p><a href="shop-list.html">REVLON</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Vivid Eye Pencil</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">REVLON</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1626,7 +1626,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-9.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-21.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1635,14 +1635,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
-                                 <p><a href="shop-list.html">Crystal</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Firming Night Cream</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Crystal</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1661,7 +1661,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-10.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1669,15 +1669,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Radiant</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Radiant</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1696,7 +1696,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-11.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-14.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1705,14 +1705,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
-                                 <p><a href="shop-list.html">Radiance</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Age-Defying Miracle</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Radiance</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1731,7 +1731,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-12.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1739,14 +1739,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
-                                 <p><a href="shop-list.html">Whispering</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Oil-Control Pressed</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Whispering</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1769,7 +1769,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-7.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-22.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1778,15 +1778,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Crystal Gleam</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Crystal Gleam</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1805,7 +1805,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-8.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1813,14 +1813,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
-                                 <p><a href="shop-list.html">REVLON</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Vivid Eye Pencil</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">REVLON</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1839,7 +1839,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-9.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-21.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1848,14 +1848,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
-                                 <p><a href="shop-list.html">Crystal</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Firming Night Cream</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Crystal</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1874,7 +1874,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-10.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1882,15 +1882,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Radiant</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Radiant</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1909,7 +1909,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-11.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-14.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1918,14 +1918,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
-                                 <p><a href="shop-list.html">Radiance</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Age-Defying Miracle</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Radiance</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1944,7 +1944,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-12.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -1952,14 +1952,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
-                                 <p><a href="shop-list.html">Whispering</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Oil-Control Pressed</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Whispering</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -1982,7 +1982,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-7.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-22.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -1991,15 +1991,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Crystal Gleam</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Crystal Gleam</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2018,7 +2018,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-8.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -2026,14 +2026,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
-                                 <p><a href="shop-list.html">REVLON</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Vivid Eye Pencil</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">REVLON</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2052,7 +2052,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-9.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-21.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -2061,14 +2061,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
-                                 <p><a href="shop-list.html">Crystal</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Firming Night Cream</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Crystal</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2087,7 +2087,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-10.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -2095,15 +2095,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Radiant</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Radiant</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2122,7 +2122,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-11.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-14.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -2131,14 +2131,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
-                                 <p><a href="shop-list.html">Radiance</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Age-Defying Miracle</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Radiance</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2157,7 +2157,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-12.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -2165,14 +2165,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
-                                 <p><a href="shop-list.html">Whispering</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Oil-Control Pressed</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Whispering</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2195,7 +2195,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-7.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-22.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -2204,15 +2204,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Crystal Gleam</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Crystal Gleam</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2231,7 +2231,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-8.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -2239,14 +2239,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
-                                 <p><a href="shop-list.html">REVLON</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Vivid Eye Pencil</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">REVLON</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2265,7 +2265,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-9.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-21.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -2274,14 +2274,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
-                                 <p><a href="shop-list.html">Crystal</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Firming Night Cream</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Crystal</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2300,7 +2300,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-10.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -2308,15 +2308,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Radiant</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Radiant</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2335,7 +2335,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-11.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-14.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -2344,14 +2344,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
-                                 <p><a href="shop-list.html">Radiance</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Age-Defying Miracle</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Radiance</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2370,7 +2370,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-12.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -2378,14 +2378,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
-                                 <p><a href="shop-list.html">Whispering</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Oil-Control Pressed</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Whispering</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2408,7 +2408,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-7.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-22.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -2417,15 +2417,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Crystal Gleam</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Crystal Gleam</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2444,7 +2444,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-8.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -2452,14 +2452,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
-                                 <p><a href="shop-list.html">REVLON</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Vivid Eye Pencil</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">REVLON</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2478,7 +2478,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-9.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-21.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -2487,14 +2487,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
-                                 <p><a href="shop-list.html">Crystal</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Firming Night Cream</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Crystal</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2513,7 +2513,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-10.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -2521,15 +2521,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Radiant</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Radiant</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2548,7 +2548,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-11.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-14.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -2557,14 +2557,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
-                                 <p><a href="shop-list.html">Radiance</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Age-Defying Miracle</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Radiance</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2583,7 +2583,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-12.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -2591,14 +2591,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
-                                 <p><a href="shop-list.html">Whispering</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Oil-Control Pressed</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Whispering</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2621,7 +2621,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-7.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-22.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -2630,15 +2630,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Youthful Renewal Formula</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Youthful Renewal Formula</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Crystal Gleam</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Crystal Gleam</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2657,7 +2657,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-8.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -2665,14 +2665,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Vivid Eye Pencil</a></h6>
-                                 <p><a href="shop-list.html">REVLON</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Vivid Eye Pencil</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">REVLON</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2691,7 +2691,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-9.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-21.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -2700,14 +2700,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Firming Night Cream</a></h6>
-                                 <p><a href="shop-list.html">Crystal</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Firming Night Cream</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Crystal</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2726,7 +2726,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-10.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -2734,15 +2734,15 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Brightening Cream Complex</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Brightening Cream Complex</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Radiant</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Radiant</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2761,7 +2761,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-11.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/product-img-14.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -2770,14 +2770,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Age-Defying Miracle</a></h6>
-                                 <p><a href="shop-list.html">Radiance</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Age-Defying Miracle</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Radiance</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2796,7 +2796,7 @@
                         <div class="col-xl-4 col-md-6">
                            <div class="product-card style-2 hover-btn">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/product-img-12.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -2804,14 +2804,14 @@
                                  </a>
                                  <div class="overlay">
                                     <div class="cart-area">
-                                       <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
+                                       <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i>
                                           Add To Cart</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Oil-Control Pressed</a></h6>
-                                 <p><a href="shop-list.html">Whispering</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Oil-Control Pressed</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Whispering</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -2849,7 +2849,7 @@
                         <h5>Get</h5>
                         <h5><span>30%</span> off</h5>
                      </div>
-                     <a href="shop-list.html" class="buy-btn2 hover-btn3">*Buy Now*</a>
+                     <a href="{{ route('shop.list') }}" class="buy-btn2 hover-btn3">*Buy Now*</a>
                   </div>
                </div>
             </div>
@@ -2860,7 +2860,7 @@
                      <h5>All Makeup Product</h5>
                      <h4>30% <span>off</span></h4>
                      <p>Whatever your summer looks like, bring your own.</p>
-                     <a href="shop-list.html" class="buy-btn2 hover-btn3">*Buy Now*</a>
+                     <a href="{{ route('shop.list') }}" class="buy-btn2 hover-btn3">*Buy Now*</a>
                   </div>
                </div>
             </div>
@@ -2890,7 +2890,7 @@
                      <div class="swiper-slide">
                         <div class="product-card hover-btn">
                            <div class="product-card-img double-img">
-                              <a href="product-default.html">
+                              <a href="{{ route('product.default') }}">
                                  <img src="{{ asset('assets/img/home1/product-img-13.png') }}" alt="" class="img1">
                                  <img src="{{ asset('assets/img/home1/product-img-12.png') }}" alt="" class="img2">
                                  <div class="countdown-timer">
@@ -2916,14 +2916,14 @@
                               </a>
                               <div class="overlay">
                                  <div class="cart-area">
-                                    <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add
+                                    <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add
                                        To Cart</a>
                                  </div>
                               </div>
                               <div class="view-and-favorite-area">
                                  <ul>
                                     <li>
-                                       <a href="whistlist.html">
+                                       <a href="{{ route('whistlist') }}">
                                           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                              viewBox="0 0 18 18">
                                              <g clip-path="url(#clip0_168_378)">
@@ -2949,8 +2949,8 @@
                               </div>
                            </div>
                            <div class="product-card-content">
-                              <h6><a href="product-default.html" class="hover-underline">Soothing Aloe Bliss</a></h6>
-                              <p><a href="shop-list.html">Radiant Glow</a></p>
+                              <h6><a href="{{ route('product.default') }}" class="hover-underline">Soothing Aloe Bliss</a></h6>
+                              <p><a href="{{ route('shop.list') }}">Radiant Glow</a></p>
                               <p class="price">₹150.00 <del>₹200.00</del></p>
                               <div class="rating">
                                  <ul>
@@ -2969,7 +2969,7 @@
                      <div class="swiper-slide">
                         <div class="product-card hover-btn">
                            <div class="product-card-img">
-                              <a href="product-default.html">
+                              <a href="{{ route('product.default') }}">
                                  <img src="{{ asset('assets/img/home1/product-img-14.png') }}" alt="">
                                  <div class="batch">
                                     <span>-15%</span>
@@ -2977,14 +2977,14 @@
                               </a>
                               <div class="overlay">
                                  <div class="cart-area">
-                                    <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add
+                                    <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add
                                        To Cart</a>
                                  </div>
                               </div>
                               <div class="view-and-favorite-area">
                                  <ul>
                                     <li>
-                                       <a href="whistlist.html">
+                                       <a href="{{ route('whistlist') }}">
                                           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                              viewBox="0 0 18 18">
                                              <g clip-path="url(#clip0_168_378)">
@@ -3010,8 +3010,8 @@
                               </div>
                            </div>
                            <div class="product-card-content">
-                              <h6><a href="product-default.html" class="hover-underline">Calming Skin Relief</a></h6>
-                              <p><a href="shop-list.html">Silk Glow</a></p>
+                              <h6><a href="{{ route('product.default') }}" class="hover-underline">Calming Skin Relief</a></h6>
+                              <p><a href="{{ route('shop.list') }}">Silk Glow</a></p>
                               <p class="price">₹150.00 <del>₹200.00</del></p>
                               <div class="rating">
                                  <ul>
@@ -3030,7 +3030,7 @@
                      <div class="swiper-slide">
                         <div class="product-card hover-btn">
                            <div class="product-card-img double-img">
-                              <a href="product-default.html">
+                              <a href="{{ route('product.default') }}">
                                  <img src="{{ asset('assets/img/home1/product-img-15.png') }}" alt="" class="img1">
                                  <img src="{{ asset('assets/img/home1/product-img-18.png') }}" alt="" class="img2">
                                  <div class="batch">
@@ -3039,14 +3039,14 @@
                               </a>
                               <div class="overlay">
                                  <div class="cart-area">
-                                    <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add
+                                    <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add
                                        To Cart</a>
                                  </div>
                               </div>
                               <div class="view-and-favorite-area">
                                  <ul>
                                     <li>
-                                       <a href="whistlist.html">
+                                       <a href="{{ route('whistlist') }}">
                                           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                              viewBox="0 0 18 18">
                                              <g clip-path="url(#clip0_168_378)">
@@ -3072,8 +3072,8 @@
                               </div>
                            </div>
                            <div class="product-card-content">
-                              <h6><a href="product-default.html" class="hover-underline">Timeless Amber Essence</a></h6>
-                              <p><a href="shop-list.html">Lash Luxe</a></p>
+                              <h6><a href="{{ route('product.default') }}" class="hover-underline">Timeless Amber Essence</a></h6>
+                              <p><a href="{{ route('shop.list') }}">Lash Luxe</a></p>
                               <p class="price">₹150.00 <del>₹200.00</del></p>
                               <div class="rating">
                                  <ul>
@@ -3092,7 +3092,7 @@
                      <div class="swiper-slide">
                         <div class="product-card hover-btn">
                            <div class="product-card-img">
-                              <a href="product-default.html">
+                              <a href="{{ route('product.default') }}">
                                  <img src="{{ asset('assets/img/home1/product-img-16.png') }}" alt="">
                                  <div class="batch">
                                     <span>-15%</span>
@@ -3100,14 +3100,14 @@
                               </a>
                               <div class="overlay">
                                  <div class="cart-area">
-                                    <a href="cart.html" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add
+                                    <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i class="bi bi-bag-check"></i> Add
                                        To Cart</a>
                                  </div>
                               </div>
                               <div class="view-and-favorite-area">
                                  <ul>
                                     <li>
-                                       <a href="whistlist.html">
+                                       <a href="{{ route('whistlist') }}">
                                           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                              viewBox="0 0 18 18">
                                              <g clip-path="url(#clip0_168_378)">
@@ -3133,8 +3133,8 @@
                               </div>
                            </div>
                            <div class="product-card-content">
-                              <h6><a href="product-default.html" class="hover-underline">Crimson Dreamy Hue</a></h6>
-                              <p><a href="shop-list.html">Crystal Clear</a></p>
+                              <h6><a href="{{ route('product.default') }}" class="hover-underline">Crimson Dreamy Hue</a></h6>
+                              <p><a href="{{ route('shop.list') }}">Crystal Clear</a></p>
                               <p class="price">₹150.00 <del>₹200.00</del></p>
                               <div class="rating">
                                  <ul>
@@ -3215,18 +3215,18 @@
                                        </svg> Antioxidants
                                     </li>
                                  </ul>
-                                 <a href="shop-list.html" class="primary-btn1 hover-btn3">*Buy Now*</a>
+                                 <a href="{{ route('shop.list') }}" class="primary-btn1 hover-btn3">*Buy Now*</a>
                               </div>
                            </div>
                            <div class="col-lg-6">
                               <div class="exclusive-product-right">
                                  <div class="product-right-img hover-img">
-                                    <a href="product-default.html">
+                                    <a href="{{ route('product.default') }}">
                                        <img src="{{ asset('assets/img/home1/ex-product-img-01.png') }}" alt="">
                                     </a>
                                  </div>
                                  <div class="product-right-content">
-                                    <a href="shop-list.html">
+                                    <a href="{{ route('shop.list') }}">
                                        <img src="{{ asset('assets/img/home1/loreal-logo.png') }}" alt="">
                                     </a>
                                     <div class="star-bg">
@@ -3283,18 +3283,18 @@
                                        </svg> Antioxidants
                                     </li>
                                  </ul>
-                                 <a href="shop-list.html" class="primary-btn1 hover-btn3">*Buy Now*</a>
+                                 <a href="{{ route('shop.list') }}" class="primary-btn1 hover-btn3">*Buy Now*</a>
                               </div>
                            </div>
                            <div class="col-lg-6">
                               <div class="exclusive-product-right">
                                  <div class="product-right-img hover-img">
-                                    <a href="product-default.html">
+                                    <a href="{{ route('product.default') }}">
                                        <img src="{{ asset('assets/img/home1/ex-product-img-02.png') }}" alt="">
                                     </a>
                                  </div>
                                  <div class="product-right-content">
-                                    <a href="shop-list.html">
+                                    <a href="{{ route('shop.list') }}">
                                        <img src="{{ asset('assets/img/home1/loreal-logo.png') }}" alt="">
                                     </a>
                                     <div class="star-bg">
@@ -3351,18 +3351,18 @@
                                        </svg> Antioxidants
                                     </li>
                                  </ul>
-                                 <a href="shop-list.html" class="primary-btn1 hover-btn3">*Buy Now*</a>
+                                 <a href="{{ route('shop.list') }}" class="primary-btn1 hover-btn3">*Buy Now*</a>
                               </div>
                            </div>
                            <div class="col-lg-6">
                               <div class="exclusive-product-right">
                                  <div class="product-right-img hover-img">
-                                    <a href="product-default.html">
+                                    <a href="{{ route('product.default') }}">
                                        <img src="{{ asset('assets/img/home1/ex-product-img-03.png') }}" alt="">
                                     </a>
                                  </div>
                                  <div class="product-right-content">
-                                    <a href="shop-list.html">
+                                    <a href="{{ route('shop.list') }}">
                                        <img src="{{ asset('assets/img/home1/loreal-logo.png') }}" alt="">
                                     </a>
                                     <div class="star-bg">
@@ -3440,7 +3440,7 @@
                         </div>
 
                      </div>
-                     <a href="shop-list.html" class="primary-btn1 style-2 hover-btn3">*Shop Now*</a>
+                     <a href="{{ route('shop.list') }}" class="primary-btn1 style-2 hover-btn3">*Shop Now*</a>
                   </div>
                </div>
                <div class="col-lg-8 p-lg-0">
@@ -3449,7 +3449,7 @@
                         <div class="slide-item">
                            <div class="product-card style-4">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-01.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-05.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -3464,8 +3464,8 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Mystic Woods Aroma</a></h6>
-                                 <p><a href="shop-list.html">Whispering</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Mystic Woods Aroma</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Whispering</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -3483,7 +3483,7 @@
                         <div class="slide-item">
                            <div class="product-card style-4">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-02.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -3497,8 +3497,8 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Dewy Fresh Face</a></h6>
-                                 <p><a href="shop-list.html">Pure Bliss</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Dewy Fresh Face</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Pure Bliss</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -3516,7 +3516,7 @@
                         <div class="slide-item">
                            <div class="product-card style-4">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-03.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -3530,8 +3530,8 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Rose Petal Flush</a></h6>
-                                 <p><a href="shop-list.html">Velvet Tint</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Rose Petal Flush</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Velvet Tint</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -3549,7 +3549,7 @@
                         <div class="slide-item">
                            <div class="product-card style-4">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-04.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -3563,9 +3563,9 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Hydrating Waves</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Hydrating Waves</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Crystal Gleam</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Crystal Gleam</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -3583,7 +3583,7 @@
                         <div class="slide-item">
                            <div class="product-card style-4">
                               <div class="product-card-img double-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-05.png') }}" alt="" class="img1">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-01.png') }}" alt="" class="img2">
                                     <div class="batch">
@@ -3598,8 +3598,8 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Velvet Red Charm</a></h6>
-                                 <p><a href="shop-list.html">Radiant</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Velvet Red Charm</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Radiant</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -3617,7 +3617,7 @@
                         <div class="slide-item">
                            <div class="product-card style-4">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-06.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -3631,9 +3631,9 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Intensive Cream</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Intensive Cream</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Nectar Nouri</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Nectar Nouri</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -3651,7 +3651,7 @@
                         <div class="slide-item">
                            <div class="product-card style-4">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-01.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -3665,8 +3665,8 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Mystic Woods Aroma</a></h6>
-                                 <p><a href="shop-list.html">Whispering</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Mystic Woods Aroma</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Whispering</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -3684,7 +3684,7 @@
                         <div class="slide-item">
                            <div class="product-card style-4">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-02.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -3698,8 +3698,8 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Dewy Fresh Face</a></h6>
-                                 <p><a href="shop-list.html">Pure Bliss</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Dewy Fresh Face</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Pure Bliss</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -3717,7 +3717,7 @@
                         <div class="slide-item">
                            <div class="product-card style-4">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-03.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -3731,8 +3731,8 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Rose Petal Flush</a></h6>
-                                 <p><a href="shop-list.html">Velvet Tint</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Rose Petal Flush</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Velvet Tint</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -3750,7 +3750,7 @@
                         <div class="slide-item">
                            <div class="product-card style-4">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-04.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -3764,9 +3764,9 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Hydrating Waves</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Hydrating Waves</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Crystal Gleam</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Crystal Gleam</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -3784,7 +3784,7 @@
                         <div class="slide-item">
                            <div class="product-card style-4">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-05.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -3798,8 +3798,8 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Velvet Red Charm</a></h6>
-                                 <p><a href="shop-list.html">Radiant</a></p>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Velvet Red Charm</a></h6>
+                                 <p><a href="{{ route('shop.list') }}">Radiant</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -3817,7 +3817,7 @@
                         <div class="slide-item">
                            <div class="product-card style-4">
                               <div class="product-card-img">
-                                 <a href="product-default.html">
+                                 <a href="{{ route('product.default') }}">
                                     <img src="{{ asset('assets/img/home1/sp-product-img-06.png') }}" alt="">
                                     <div class="batch">
                                        <span>-15%</span>
@@ -3831,9 +3831,9 @@
                                  </div>
                               </div>
                               <div class="product-card-content">
-                                 <h6><a href="product-default.html" class="hover-underline">Intensive Cream</a>
+                                 <h6><a href="{{ route('product.default') }}" class="hover-underline">Intensive Cream</a>
                                  </h6>
-                                 <p><a href="shop-list.html">Nectar Nouri</a></p>
+                                 <p><a href="{{ route('shop.list') }}">Nectar Nouri</a></p>
                                  <p class="price">₹150.00 <del>₹200.00</del></p>
                                  <div class="rating">
                                     <ul>
@@ -3871,49 +3871,49 @@
                      <div class="swiper-wrapper">
                         <div class="swiper-slide">
                            <div class="brand-icon">
-                              <a href="shop-list.html">
+                              <a href="{{ route('shop.list') }}">
                                  <img src="{{ asset('assets/img/home1/brand-logo1.png') }}" alt="">
                               </a>
                            </div>
                         </div>
                         <div class="swiper-slide">
                            <div class="brand-icon">
-                              <a href="shop-list.html">
+                              <a href="{{ route('shop.list') }}">
                                  <img src="{{ asset('assets/img/home1/brand-logo2.png') }}" alt="">
                               </a>
                            </div>
                         </div>
                         <div class="swiper-slide">
                            <div class="brand-icon">
-                              <a href="shop-list.html">
+                              <a href="{{ route('shop.list') }}">
                                  <img src="{{ asset('assets/img/home1/brand-logo3.png') }}" alt="">
                               </a>
                            </div>
                         </div>
                         <div class="swiper-slide">
                            <div class="brand-icon">
-                              <a href="shop-list.html">
+                              <a href="{{ route('shop.list') }}">
                                  <img src="{{ asset('assets/img/home1/brand-logo4.png') }}" alt="">
                               </a>
                            </div>
                         </div>
                         <div class="swiper-slide">
                            <div class="brand-icon">
-                              <a href="shop-list.html">
+                              <a href="{{ route('shop.list') }}">
                                  <img src="{{ asset('assets/img/home1/brand-logo5.png') }}" alt="">
                               </a>
                            </div>
                         </div>
                         <div class="swiper-slide">
                            <div class="brand-icon">
-                              <a href="shop-list.html">
+                              <a href="{{ route('shop.list') }}">
                                  <img src="{{ asset('assets/img/home1/brand-logo6.png') }}" alt="">
                               </a>
                            </div>
                         </div>
                         <div class="swiper-slide">
                            <div class="brand-icon">
-                              <a href="shop-list.html">
+                              <a href="{{ route('shop.list') }}">
                                  <img src="{{ asset('assets/img/home1/brand-logo7.png') }}" alt="">
                               </a>
                            </div>
@@ -3943,7 +3943,7 @@
                      <h2>They’re kinda our Best thing!</h2>
                      <p>Whatever your summer looks like, bring your own heat with up to 25% off Lumin Brand.Pellentesque
                         ipsum dui, laoreet vitae ex in, pellentesque aliquam leo.</p>
-                     <a href="shop-list.html" class="primary-btn1 style-2 hover-btn3">*Shop All Brows*</a>
+                     <a href="{{ route('shop.list') }}" class="primary-btn1 style-2 hover-btn3">*Shop All Brows*</a>
                   </div>
                </div>
             </div>
@@ -3954,7 +3954,7 @@
                   <h2>Try on your perfect Best Makeup!</h2>
                   <p>Whatever your summer looks like, bring your own heat with up to 25% off Lumin Brand.Pellentesque ipsum
                      dui, laoreet vitae ex in, pellentesque aliquam leo.</p>
-                  <a href="shop-list.html" class="primary-btn1 style-2 hover-btn3">*Try It Now*</a>
+                  <a href="{{ route('shop.list') }}" class="primary-btn1 style-2 hover-btn3">*Try It Now*</a>
                </div>
             </div>
             <div class="col-lg-6 order-lg-2 order-1">
@@ -4107,117 +4107,6 @@
    </div>
    <!-- End Say About section section -->
 
-   <!-- Start Beauty Article section section -->
-   <div class="beauty-article-section mb-110">
-      <div class="container-md container-fluid">
-         <div class="section-title style-2 text-center">
-            <h3>Our Beauty Article</h3>
-         </div>
-         <div class="row gy-4">
-            <div class="col-lg-7">
-               <div class="row gy-4">
-                  <div class="col-sm-6">
-                     <div class="article-card">
-                        <div class="article-image">
-                           <div class="blog-date">
-                              <a href="blog-grid.html">20 July, 2023</a>
-                           </div>
-                           <a href="blog-details.html" class="article-card-img hover-img">
-                              <img src="{{ asset('assets/img/home1/article-img1.png') }}" alt="">
-                           </a>
-                        </div>
-                        <div class="article-card-content">
-                           <div class="tag">
-                              <ul>
-                                 <li>
-                                    <a href="blog-grid.html">Beauty</a>
-                                 </li>
-                                 <li>
-                                    <a href="blog-grid.html">Makeup </a>
-                                 </li>
-                                 <li>
-                                    <a href="blog-grid.html">Health</a>
-                                 </li>
-                              </ul>
-                           </div>
-                           <h5><a href="blog-details.html" class="hover-underline">Vestibulum leo ex posueret eu lobortis
-                                 ut.</a></h5>
-                           <p>Software development is the process offer creatain onet computer software programs that
-                              perform specific tasks.......</p>
-                           <a href="blog-details.html">Read More</a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-sm-6">
-                     <div class="article-card">
-                        <div class="article-image">
-                           <a href="blog-details.html" class="article-card-img hover-img">
-                              <img src="{{ asset('assets/img/home1/article-img2.png') }}" alt="">
-                           </a>
-                           <div class="blog-date">
-                              <a href="blog-grid.html">25 July, 2023</a>
-                           </div>
-                        </div>
-                        <div class="article-card-content">
-                           <div class="tag">
-                              <ul>
-                                 <li>
-                                    <a href="blog-grid.html">Beauty</a>
-                                 </li>
-                                 <li>
-                                    <a href="blog-grid.html">Makeup </a>
-                                 </li>
-                                 <li>
-                                    <a href="blog-grid.html">Health</a>
-                                 </li>
-                              </ul>
-                           </div>
-                           <h5><a href="blog-details.html" class="hover-underline">Duis justo orci consecteturi et
-                                 convallis.</a></h5>
-                           <p>Software development is the process offer creatain onet computer software programs that
-                              perform specific tasks.......</p>
-                           <a href="blog-details.html">Read More</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-5">
-               <div class="article-card">
-                  <div class="article-image">
-                     <a href="blog-details.html" class="article-card-img hover-img">
-                        <img src="{{ asset('assets/img/home1/article-img3.png') }}" alt="">
-                     </a>
-                     <div class="blog-date">
-                        <a href="blog-grid.html">10 June, 2023</a>
-                     </div>
-                  </div>
-                  <div class="article-card-content style-2">
-                     <div class="tag">
-                        <ul>
-                           <li>
-                              <a href="blog-grid.html">Beauty</a>
-                           </li>
-                           <li>
-                              <a href="blog-grid.html">Makeup </a>
-                           </li>
-                           <li>
-                              <a href="blog-grid.html">Health</a>
-                           </li>
-                        </ul>
-                     </div>
-                     <h5><a href="blog-details.html" class="hover-underline">Fusce vel auctor leo, a tempus sapieno Nunc ut
-                           purus.</a></h5>
-                     <p>Software development is the process offer creatain onet computer software programs that perform
-                        specific tasks and its helps user to complete tasks in easy way.......</p>
-                     <a href="blog-details.html">Read More</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- End Beauty Article section section -->
 
    <!-- Star Newsletter section section -->
    <div class="newsletter-section mb-110">
@@ -4248,7 +4137,7 @@
       <div class="container">
          <div class="section-title style-3">
             <h3>Instagram Feed</h3>
-            <p>Follow us on <a href="">@Egenslab</a></p>
+            <p>Follow us on <a href="https://www.instagram.com/beautybasketbotad">@beautybasketbotad</a></p>
          </div>
       </div>
       <div class="instagram-wrapper">
@@ -4258,35 +4147,35 @@
                   <div class="swiper instagram-slider">
                      <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img1.png') }}"
+                           <a href="#"><img src="{{ asset('assets/img/home1/insta-img1.png') }}"
                                  alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img2.png') }}"
+                           <a href="#"><img src="{{ asset('assets/img/home1/insta-img2.png') }}"
                                  alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img3.png') }}"
+                           <a href="#"><img src="{{ asset('assets/img/home1/insta-img3.png') }}"
                                  alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img4.png') }}"
+                           <a href="#"><img src="{{ asset('assets/img/home1/insta-img4.png') }}"
                                  alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img5.png') }}"
+                           <a href="#"><img src="{{ asset('assets/img/home1/insta-img5.png') }}"
                                  alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img6.png') }}"
+                           <a href="#"><img src="{{ asset('assets/img/home1/insta-img6.png') }}"
                                  alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img7.png') }}"
+                           <a href="#"><img src="{{ asset('assets/img/home1/insta-img7.png') }}"
                                  alt=""></a>
                         </div>
                         <div class="swiper-slide">
-                           <a href="https://www.instagram.com/"><img src="{{ asset('assets/img/home1/insta-img8.png') }}"
+                           <a href="#"><img src="{{ asset('assets/img/home1/insta-img8.png') }}"
                                  alt=""></a>
                         </div>
                      </div>

@@ -20,40 +20,40 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="category-card">
                         <div class="category-card-img hover-img">
-                            <a href="shop-list.html"><img src="{{ asset('assets/img/inner-page/category-img1.png') }}" alt=""></a>
+                            <a href="{{ route('shop.list') }}"><img src="{{ asset('assets/img/inner-page/category-img1.png') }}" alt=""></a>
                         </div>
                         <div class="category-card-content">
-                            <a href="shop-list.html">Bath & Body</a>
+                            <a href="{{ route('shop.list') }}">Bath & Body</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="category-card">
                         <div class="category-card-img hover-img">
-                            <a href="shop-list.html"><img src="{{ asset('assets/img/inner-page/category-img2.png') }}" alt=""></a>
+                            <a href="{{ route('shop.list') }}"><img src="{{ asset('assets/img/inner-page/category-img2.png') }}" alt=""></a>
                         </div>
                         <div class="category-card-content">
-                            <a href="shop-list.html">Skin Care</a>
+                            <a href="{{ route('shop.list') }}">Skin Care</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="category-card">
                         <div class="category-card-img hover-img">
-                            <a href="shop-list.html"><img src="{{ asset('assets/img/inner-page/category-img3.png') }}" alt=""></a>
+                            <a href="{{ route('shop.list') }}"><img src="{{ asset('assets/img/inner-page/category-img3.png') }}" alt=""></a>
                         </div>
                         <div class="category-card-content">
-                            <a href="shop-list.html">Hair Care</a>
+                            <a href="{{ route('shop.list') }}">Hair Care</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="category-card">
                         <div class="category-card-img hover-img">
-                            <a href="shop-list.html"><img src="{{ asset('assets/img/inner-page/category-img4.png') }}" alt=""></a>
+                            <a href="{{ route('shop.list') }}"><img src="{{ asset('assets/img/inner-page/category-img4.png') }}" alt=""></a>
                         </div>
                         <div class="category-card-content">
-                            <a href="shop-list.html">Kids & Baby</a>
+                            <a href="{{ route('shop.list') }}">Kids & Baby</a>
                         </div>
                     </div>
                 </div>
@@ -62,40 +62,40 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="category-card">
                         <div class="category-card-img hover-img">
-                            <a href="shop-list.html"><img src="{{ asset('assets/img/inner-page/category-img5.png') }}" alt=""></a>
+                            <a href="{{ route('shop.list') }}"><img src="{{ asset('assets/img/inner-page/category-img5.png') }}" alt=""></a>
                         </div>
                         <div class="category-card-content">
-                            <a href="shop-list.html">Makeup</a>
+                            <a href="{{ route('shop.list') }}">Makeup</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="category-card">
                         <div class="category-card-img hover-img">
-                            <a href="shop-list.html"><img src="{{ asset('assets/img/inner-page/category-img6.png') }}" alt=""></a>
+                            <a href="{{ route('shop.list') }}"><img src="{{ asset('assets/img/inner-page/category-img6.png') }}" alt=""></a>
                         </div>
                         <div class="category-card-content">
-                            <a href="shop-list.html">Fragrance</a>
+                            <a href="{{ route('shop.list') }}">Fragrance</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="category-card">
                         <div class="category-card-img hover-img">
-                            <a href="shop-list.html"> <img src="{{ asset('assets/img/inner-page/category-img7.png') }}" alt=""></a>
+                            <a href="{{ route('shop.list') }}"> <img src="{{ asset('assets/img/inner-page/category-img7.png') }}" alt=""></a>
                         </div>
                         <div class="category-card-content">
-                            <a href="shop-list.html">Accessories</a>
+                            <a href="{{ route('shop.list') }}">Accessories</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="category-card">
                         <div class="category-card-img hover-img">
-                            <a href="shop-list.html"><img src="{{ asset('assets/img/inner-page/category-img8.png') }}" alt=""></a>
+                            <a href="{{ route('shop.list') }}"><img src="{{ asset('assets/img/inner-page/category-img8.png') }}" alt=""></a>
                         </div>
                         <div class="category-card-content">
-                            <a href="shop-list.html">Men Fashion</a>
+                            <a href="{{ route('shop.list') }}">Men Fashion</a>
                         </div>
                     </div>
                 </div>

@@ -80,49 +80,49 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="brand-icon">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="{{ asset('assets/img/home1/brand-logo1.png') }}" alt="">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand-icon">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="{{ asset('assets/img/home1/brand-logo2.png') }}" alt="">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand-icon">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="{{ asset('assets/img/home1/brand-logo3.png') }}" alt="">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand-icon">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="{{ asset('assets/img/home1/brand-logo4.png') }}" alt="">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand-icon">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="{{ asset('assets/img/home1/brand-logo5.png') }}" alt="">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand-icon">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="{{ asset('assets/img/home1/brand-logo6.png') }}" alt="">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand-icon">
-                                        <a href="shop-list.html">
+                                        <a href="{{ route('shop.list') }}">
                                             <img src="{{ asset('assets/img/home1/brand-logo7.png') }}" alt="">
                                         </a>
                                     </div>
@@ -466,7 +466,7 @@
         <div class="container">
             <div class="section-title style-3">
                 <h3>Instagram Feed</h3>
-                <p>Follow us on <a href="">@Egenslab</a></p>
+                <p>Follow us on <a href="https://www.instagram.com/beautybasketbotad">@beautybasketbotad</a></p>
             </div>
         </div>
         <div class="instagram-wrapper">
