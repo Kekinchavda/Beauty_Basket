@@ -9,7 +9,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="footer-widget">
                         <h3>Want <span>to Take <br></span> Beauty Product <span>off our Shop</span>?</h3>
-                        <a href="shop-list.html" class="primary-btn1 hover-btn3">*Shop Now*</a>
+                        <a href="{{ route('shop.list') }}" class="primary-btn1 hover-btn3">*Shop Now*</a>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-lg-start justify-content-sm-end">
@@ -18,11 +18,11 @@
                             <h5>Support</h5>
                         </div>
                         <ul class="widget-list">
-                            <li><a href="contact.html">Help & Contact Us</a></li>
+                            <li><a href="{{ route('contact.us') }}">Help & Contact Us</a></li>
                             <li><a href="#">Return & Refunds</a></li>
-                            <li><a href="shop-list.html">Online Stores</a></li>
+                            <li><a href="{{ route('shop.list') }}">Online Stores</a></li>
                             <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="my-account.html">Profile</a></li>
+                            <li><a href="{{ route('my.account') }}">Profile</a></li>
                         </ul>
                     </div>
                 </div>
@@ -32,11 +32,11 @@
                             <h5>Company</h5>
                         </div>
                         <ul class="widget-list">
-                            <li><a href="about-us.html">What we do</a></li>
-                            <li><a href="gift-card.html">Gift Offers</a></li>
-                            <li><a href="blog-grid.html">Latest Posts</a></li>
-                            <li><a href="faq.html">F.A.Q</a></li>
-                            <li><a href="our-brand.html">Our Brand</a></li>
+                            <li><a href="{{ route('about.us') }}">What we do</a></li>
+                            <!-- <li><a href="gift-card.html">Gift Offers</a></li> -->
+                            <!-- <li><a href="blog-grid.html">Latest Posts</a></li> -->
+                            <!-- <li><a href="faq.html">F.A.Q</a></li> -->
+                            <li><a href="{{ route('our.brand') }}">Our Brand</a></li>
                         </ul>
                     </div>
                 </div>
@@ -47,28 +47,15 @@
                             <h5>Category</h5>
                         </div>
                         <ul class="widget-list">
-                            <li><a href="shop-list.html">Bath & Body</a></li>
-                            <li><a href="shop-list.html">Skin Care</a></li>
-                            <li><a href="shop-list.html">Hair Care</a></li>
-                            <li><a href="shop-list.html">Kids & Baby</a></li>
-                            <li><a href="shop-list.html">Fragrance</a></li>
+                            <li><a href="{{ route('shop.list') }}">Bath & Body</a></li>
+                            <li><a href="{{ route('shop.list') }}">Skin Care</a></li>
+                            <li><a href="{{ route('shop.list') }}">Hair Care</a></li>
+                            <li><a href="{{ route('shop.list') }}">Fragrance</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-lg-end justify-content-md-center">
                     <div class="footer-widget">
-                        <div class="widget-title style-2">
-                            <h5>Install app</h5>
-                        </div>
-                        <p>Form App Store or Google Play</p>
-                        <div class="app-store">
-                            <a href="#">
-                                <img src="{{ asset('assets/img/home1/google-play.png') }}" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="{{ asset('assets/img/home1/app-store.png') }}" alt="">
-                            </a>
-                        </div>
                         <div class="payment-gateway">
                             <p>Secured Payment Gateways</p>
                             <div class="icons">

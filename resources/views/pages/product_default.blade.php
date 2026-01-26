@@ -468,7 +468,7 @@
                             <div class="swiper-slide">
                                 <div class="product-card hover-btn">
                                     <div class="product-card-img double-img">
-                                        <a href="product-default.html">
+                                        <a href="{{ route('product.default') }}">
                                             <img src="assets/img/home1/product-img-13.png" alt="" class="img1">
                                             <img src="assets/img/home1/product-img-12.png" alt="" class="img2">
                                             <div class="batch">
@@ -477,14 +477,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -501,7 +501,7 @@
                                                             <path
                                                                 d="M21.8601 10.5721C21.6636 10.3032 16.9807 3.98901 10.9999 3.98901C5.019 3.98901 0.335925 10.3032 0.139601 10.5718C0.0488852 10.6961 0 10.846 0 10.9999C0 11.1537 0.0488852 11.3036 0.139601 11.4279C0.335925 11.6967 5.019 18.011 10.9999 18.011C16.9807 18.011 21.6636 11.6967 21.8601 11.4281C21.951 11.3039 21.9999 11.154 21.9999 11.0001C21.9999 10.8462 21.951 10.6963 21.8601 10.5721ZM10.9999 16.5604C6.59432 16.5604 2.77866 12.3696 1.64914 10.9995C2.77719 9.62823 6.58487 5.43955 10.9999 5.43955C15.4052 5.43955 19.2206 9.62969 20.3506 11.0005C19.2225 12.3717 15.4149 16.5604 10.9999 16.5604Z" />
                                                             <path
-                                                                d="M10.9999 6.64832C8.60039 6.64832 6.64819 8.60051 6.64819 11C6.64819 13.3994 8.60039 15.3516 10.9999 15.3516C13.3993 15.3516 15.3515 13.3994 15.3515 11C15.3515 8.60051 13.3993 6.64832 10.9999 6.64832ZM10.9999 13.9011C9.40013 13.9011 8.09878 12.5997 8.09878 11C8.09878 9.40029 9.40017 8.0989 10.9999 8.0989C12.5995 8.0989 13.9009 9.40029 13.9009 11C13.9009 12.5997 12.5996 13.9011 10.9999 13.9011Z" />
+                                                                d="M10.9999 6.{{ route('shop.list') }}C8.60039 6.{{ route('shop.list') }} 6.64819 8.60051 6.64819 11C6.64819 13.3994 8.60039 15.3516 10.9999 15.3516C13.3993 15.3516 15.3515 13.3994 15.3515 11C15.3515 8.60051 13.3993 6.{{ route('shop.list') }} 10.9999 6.{{ route('shop.list') }}ZM10.9999 13.9011C9.40013 13.9011 8.09878 12.5997 8.09878 11C8.09878 9.40029 9.40017 8.0989 10.9999 8.0989C12.5995 8.0989 13.9009 9.40029 13.9009 11C13.9009 12.5997 12.5996 13.9011 10.9999 13.9011Z" />
                                                         </svg>
                                                     </a>
                                                 </li>
@@ -510,9 +510,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">Soothing Aloe Bliss</a>
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">Soothing Aloe Bliss</a>
                                         </h6>
-                                        <p><a href="shop-list.html">Radiant Glow</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Radiant Glow</a></p>
                                         <p class="price">₹150.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
@@ -531,7 +531,7 @@
                             <div class="swiper-slide">
                                 <div class="product-card hover-btn">
                                     <div class="product-card-img">
-                                        <a href="product-default.html">
+                                        <a href="{{ route('product.default') }}">
                                             <img src="assets/img/home1/product-img-14.png" alt="">
                                             <div class="batch">
                                                 <span>-15%</span>
@@ -539,14 +539,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -563,7 +563,7 @@
                                                             <path
                                                                 d="M21.8601 10.5721C21.6636 10.3032 16.9807 3.98901 10.9999 3.98901C5.019 3.98901 0.335925 10.3032 0.139601 10.5718C0.0488852 10.6961 0 10.846 0 10.9999C0 11.1537 0.0488852 11.3036 0.139601 11.4279C0.335925 11.6967 5.019 18.011 10.9999 18.011C16.9807 18.011 21.6636 11.6967 21.8601 11.4281C21.951 11.3039 21.9999 11.154 21.9999 11.0001C21.9999 10.8462 21.951 10.6963 21.8601 10.5721ZM10.9999 16.5604C6.59432 16.5604 2.77866 12.3696 1.64914 10.9995C2.77719 9.62823 6.58487 5.43955 10.9999 5.43955C15.4052 5.43955 19.2206 9.62969 20.3506 11.0005C19.2225 12.3717 15.4149 16.5604 10.9999 16.5604Z" />
                                                             <path
-                                                                d="M10.9999 6.64832C8.60039 6.64832 6.64819 8.60051 6.64819 11C6.64819 13.3994 8.60039 15.3516 10.9999 15.3516C13.3993 15.3516 15.3515 13.3994 15.3515 11C15.3515 8.60051 13.3993 6.64832 10.9999 6.64832ZM10.9999 13.9011C9.40013 13.9011 8.09878 12.5997 8.09878 11C8.09878 9.40029 9.40017 8.0989 10.9999 8.0989C12.5995 8.0989 13.9009 9.40029 13.9009 11C13.9009 12.5997 12.5996 13.9011 10.9999 13.9011Z" />
+                                                                d="M10.9999 6.{{ route('shop.list') }}C8.60039 6.{{ route('shop.list') }} 6.64819 8.60051 6.64819 11C6.64819 13.3994 8.60039 15.3516 10.9999 15.3516C13.3993 15.3516 15.3515 13.3994 15.3515 11C15.3515 8.60051 13.3993 6.{{ route('shop.list') }} 10.9999 6.{{ route('shop.list') }}ZM10.9999 13.9011C9.40013 13.9011 8.09878 12.5997 8.09878 11C8.09878 9.40029 9.40017 8.0989 10.9999 8.0989C12.5995 8.0989 13.9009 9.40029 13.9009 11C13.9009 12.5997 12.5996 13.9011 10.9999 13.9011Z" />
                                                         </svg>
                                                     </a>
                                                 </li>
@@ -572,9 +572,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">Calming Skin Relief</a>
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">Calming Skin Relief</a>
                                         </h6>
-                                        <p><a href="shop-list.html">Silk Glow</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Silk Glow</a></p>
                                         <p class="price">₹150.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
@@ -593,7 +593,7 @@
                             <div class="swiper-slide">
                                 <div class="product-card hover-btn">
                                     <div class="product-card-img double-img">
-                                        <a href="product-default.html">
+                                        <a href="{{ route('product.default') }}">
                                             <img src="assets/img/home1/product-img-15.png" alt="" class="img1">
                                             <img src="assets/img/home1/product-img-18.png" alt="" class="img2">
                                             <div class="batch">
@@ -602,14 +602,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -626,7 +626,7 @@
                                                             <path
                                                                 d="M21.8601 10.5721C21.6636 10.3032 16.9807 3.98901 10.9999 3.98901C5.019 3.98901 0.335925 10.3032 0.139601 10.5718C0.0488852 10.6961 0 10.846 0 10.9999C0 11.1537 0.0488852 11.3036 0.139601 11.4279C0.335925 11.6967 5.019 18.011 10.9999 18.011C16.9807 18.011 21.6636 11.6967 21.8601 11.4281C21.951 11.3039 21.9999 11.154 21.9999 11.0001C21.9999 10.8462 21.951 10.6963 21.8601 10.5721ZM10.9999 16.5604C6.59432 16.5604 2.77866 12.3696 1.64914 10.9995C2.77719 9.62823 6.58487 5.43955 10.9999 5.43955C15.4052 5.43955 19.2206 9.62969 20.3506 11.0005C19.2225 12.3717 15.4149 16.5604 10.9999 16.5604Z" />
                                                             <path
-                                                                d="M10.9999 6.64832C8.60039 6.64832 6.64819 8.60051 6.64819 11C6.64819 13.3994 8.60039 15.3516 10.9999 15.3516C13.3993 15.3516 15.3515 13.3994 15.3515 11C15.3515 8.60051 13.3993 6.64832 10.9999 6.64832ZM10.9999 13.9011C9.40013 13.9011 8.09878 12.5997 8.09878 11C8.09878 9.40029 9.40017 8.0989 10.9999 8.0989C12.5995 8.0989 13.9009 9.40029 13.9009 11C13.9009 12.5997 12.5996 13.9011 10.9999 13.9011Z" />
+                                                                d="M10.9999 6.{{ route('shop.list') }}C8.60039 6.{{ route('shop.list') }} 6.64819 8.60051 6.64819 11C6.64819 13.3994 8.60039 15.3516 10.9999 15.3516C13.3993 15.3516 15.3515 13.3994 15.3515 11C15.3515 8.60051 13.3993 6.{{ route('shop.list') }} 10.9999 6.{{ route('shop.list') }}ZM10.9999 13.9011C9.40013 13.9011 8.09878 12.5997 8.09878 11C8.09878 9.40029 9.40017 8.0989 10.9999 8.0989C12.5995 8.0989 13.9009 9.40029 13.9009 11C13.9009 12.5997 12.5996 13.9011 10.9999 13.9011Z" />
                                                         </svg>
                                                     </a>
                                                 </li>
@@ -635,9 +635,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">Timeless Amber
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">Timeless Amber
                                                 Essence</a></h6>
-                                        <p><a href="shop-list.html">Lash Luxe</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Lash Luxe</a></p>
                                         <p class="price">₹150.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
@@ -656,7 +656,7 @@
                             <div class="swiper-slide">
                                 <div class="product-card hover-btn">
                                     <div class="product-card-img">
-                                        <a href="product-default.html">
+                                        <a href="{{ route('product.default') }}">
                                             <img src="assets/img/home1/product-img-16.png" alt="">
                                             <div class="batch">
                                                 <span>-15%</span>
@@ -664,14 +664,14 @@
                                         </a>
                                         <div class="overlay">
                                             <div class="cart-area">
-                                                <a href="cart.html" class="hover-btn3 add-cart-btn"><i
+                                                <a href="{{ route('cart') }}" class="hover-btn3 add-cart-btn"><i
                                                         class="bi bi-bag-check"></i> Add To Cart</a>
                                             </div>
                                         </div>
                                         <div class="view-and-favorite-area">
                                             <ul>
                                                 <li>
-                                                    <a href="whistlist.html">
+                                                    <a href="{{ route('whistlist') }}">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                                             viewBox="0 0 18 18">
                                                             <g clip-path="url(#clip0_168_378)">
@@ -688,7 +688,7 @@
                                                             <path
                                                                 d="M21.8601 10.5721C21.6636 10.3032 16.9807 3.98901 10.9999 3.98901C5.019 3.98901 0.335925 10.3032 0.139601 10.5718C0.0488852 10.6961 0 10.846 0 10.9999C0 11.1537 0.0488852 11.3036 0.139601 11.4279C0.335925 11.6967 5.019 18.011 10.9999 18.011C16.9807 18.011 21.6636 11.6967 21.8601 11.4281C21.951 11.3039 21.9999 11.154 21.9999 11.0001C21.9999 10.8462 21.951 10.6963 21.8601 10.5721ZM10.9999 16.5604C6.59432 16.5604 2.77866 12.3696 1.64914 10.9995C2.77719 9.62823 6.58487 5.43955 10.9999 5.43955C15.4052 5.43955 19.2206 9.62969 20.3506 11.0005C19.2225 12.3717 15.4149 16.5604 10.9999 16.5604Z" />
                                                             <path
-                                                                d="M10.9999 6.64832C8.60039 6.64832 6.64819 8.60051 6.64819 11C6.64819 13.3994 8.60039 15.3516 10.9999 15.3516C13.3993 15.3516 15.3515 13.3994 15.3515 11C15.3515 8.60051 13.3993 6.64832 10.9999 6.64832ZM10.9999 13.9011C9.40013 13.9011 8.09878 12.5997 8.09878 11C8.09878 9.40029 9.40017 8.0989 10.9999 8.0989C12.5995 8.0989 13.9009 9.40029 13.9009 11C13.9009 12.5997 12.5996 13.9011 10.9999 13.9011Z" />
+                                                                d="M10.9999 6.{{ route('shop.list') }}C8.60039 6.{{ route('shop.list') }} 6.64819 8.60051 6.64819 11C6.64819 13.3994 8.60039 15.3516 10.9999 15.3516C13.3993 15.3516 15.3515 13.3994 15.3515 11C15.3515 8.60051 13.3993 6.{{ route('shop.list') }} 10.9999 6.{{ route('shop.list') }}ZM10.9999 13.9011C9.40013 13.9011 8.09878 12.5997 8.09878 11C8.09878 9.40029 9.40017 8.0989 10.9999 8.0989C12.5995 8.0989 13.9009 9.40029 13.9009 11C13.9009 12.5997 12.5996 13.9011 10.9999 13.9011Z" />
                                                         </svg>
                                                     </a>
                                                 </li>
@@ -697,9 +697,9 @@
                                         </div>
                                     </div>
                                     <div class="product-card-content">
-                                        <h6><a href="product-default.html" class="hover-underline">Crimson Dreamy Hue</a>
+                                        <h6><a href="{{ route('product.default') }}" class="hover-underline">Crimson Dreamy Hue</a>
                                         </h6>
-                                        <p><a href="shop-list.html">Crystal Clear</a></p>
+                                        <p><a href="{{ route('shop.list') }}">Crystal Clear</a></p>
                                         <p class="price">₹150.00 <del>₹200.00</del></p>
                                         <div class="rating">
                                             <ul>
@@ -822,7 +822,7 @@
                                         </div>
                                     </div>
                                     <div class="shop-details-btn">
-                                        <a href="shop-list.html" class="primary-btn1 hover-btn3">*Buy Now*</a>
+                                        <a href="{{ route('shop.list') }}" class="primary-btn1 hover-btn3">*Buy Now*</a>
                                         <a href="#" class="primary-btn1 style-3 hover-btn4">*Add to Cart*</a>
                                     </div>
                                     <div class="product-info">
@@ -881,7 +881,7 @@
                                     <div class="compare-wishlist-area">
                                         <ul>
                                             <li>
-                                                <a href="whistlist.html">
+                                                <a href="{{ route('whistlist') }}">
                                                     <span>
                                                         <svg width="11" height="11" viewBox="0 0 18 18"
                                                             xmlns="http://www.w3.org/2000/svg">

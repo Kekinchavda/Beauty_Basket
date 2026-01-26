@@ -38,7 +38,7 @@
                                             <img src="{{asset('assets/img/inner-page/whistlist-img1.png')}}" alt="">
                                         </div>
                                         <div class="product-content">
-                                            <h6><a href="product-default.html">Eau De Blue Perfume</a></h6>
+                                            <h6><a href="{{ route('product.default') }}">Eau De Blue Perfume</a></h6>
                                         </div>
                                     </td>
                                     <td data-label="Price">
@@ -50,7 +50,7 @@
                                         <span>In Stock</span>
                                     </td>
                                     <td>
-                                        <a href="cart.html" class="add-cart-btn hover-btn2"><i
+                                        <a href="{{ route('cart') }}" class="add-cart-btn hover-btn2"><i
                                                 class="bi bi-bag-check"></i>Add To Cart</a>
                                     </td>
                                 </tr>
@@ -65,7 +65,7 @@
                                             <img src="{{asset('assets/img/inner-page/whistlist-img2.png')}}" alt="">
                                         </div>
                                         <div class="product-content">
-                                            <h6><a href="product-default.html">Smooth Makeup Box</a></h6>
+                                            <h6><a href="{{ route('product.default') }}">Smooth Makeup Box</a></h6>
                                         </div>
                                     </td>
                                     <td data-label="Price">
@@ -77,7 +77,7 @@
                                         <span>In Stock</span>
                                     </td>
                                     <td>
-                                        <a href="cart.html" class="add-cart-btn hover-btn2"><i
+                                        <a href="{{ route('cart') }}" class="add-cart-btn hover-btn2"><i
                                                 class="bi bi-bag-check"></i>Add To Cart</a>
                                     </td>
                                 </tr>
@@ -92,7 +92,7 @@
                                             <img src="{{asset('assets/img/inner-page/whistlist-img3.png')}}" alt="">
                                         </div>
                                         <div class="product-content">
-                                            <h6><a href="product-default.html">Modern Red Lipstick</a></h6>
+                                            <h6><a href="{{ route('product.default') }}">Modern Red Lipstick</a></h6>
                                         </div>
                                     </td>
                                     <td data-label="Price">
@@ -104,7 +104,7 @@
                                         <span>In Stock</span>
                                     </td>
                                     <td>
-                                        <a href="cart.html" class="add-cart-btn hover-btn2"><i
+                                        <a href="{{ route('cart') }}" class="add-cart-btn hover-btn2"><i
                                                 class="bi bi-bag-check"></i>Add To Cart</a>
                                     </td>
                                 </tr>
@@ -119,7 +119,7 @@
                                             <img src="{{asset('assets/img/inner-page/whistlist-img4.png')}}" alt="">
                                         </div>
                                         <div class="product-content">
-                                            <h6><a href="product-default.html">New Botanical Shampoo</a></h6>
+                                            <h6><a href="{{ route('product.default') }}">New Botanical Shampoo</a></h6>
                                         </div>
                                     </td>
                                     <td data-label="Price">
@@ -131,7 +131,7 @@
                                         <span>In Stock</span>
                                     </td>
                                     <td>
-                                        <a href="cart.html" class="add-cart-btn hover-btn2"><i
+                                        <a href="{{ route('cart') }}" class="add-cart-btn hover-btn2"><i
                                                 class="bi bi-bag-check"></i>Add To Cart</a>
                                     </td>
                                 </tr>

@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/slick.css') }}">
     <!--  Style CSS  -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <link rel="icon" href="{{ asset('assets/img/sm-logo.svg') }}" type="image/gif">
+    <link rel="icon" href="{{ asset('assets/img/file.enc') }}" type="image/png">
     @stack('styles')
 </head>
 
@@ -70,7 +70,7 @@
             </div>
         </div>
     </div> -->
-    
+
     @include('partials.header')
 
     @yield('content')
