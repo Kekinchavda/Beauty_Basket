@@ -1,35 +1,27 @@
 <!DOCTYPE html>
-<html lang="ar" dir="ltr">
+<html lang="{{ app()->getLocale() }}"
+      dir="{{ app()->getLocale() === 'ar' ? 'rtl' : 'ltr' }}">
 
 <head>
-    <meta charset="UTF-8">
+    @include('partials.meta')
+
     <title>@yield('title', __('Beauty Basket'))</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <x-theme-variables />
 
-    <!-- Bootstrap Icon CSS -->
-    <link href="{{ asset('assets/css/bootstrap-icons.css') }}" rel="stylesheet">
-    <!-- Fontawesome all CSS -->
-    <link href="{{ asset('assets/css/all.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/nice-select.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/animate.min.css') }}" rel="stylesheet">
-    <!--  FancyBox CSS  -->
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/jquery.fancybox.min.css') }}">
-
-    <!-- Fontawesome CSS -->
-    <link href="{{ asset('assets/css/fontawesome.min.css') }}" rel="stylesheet">
-    <!-- box icon css -->
     <link rel="stylesheet" href="{{ asset('assets/css/boxicons.min.css') }}">
-    <!-- slider CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/slick-theme.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/slick.css') }}">
-    <!--  Style CSS  -->
+    <link rel="stylesheet" href="{{ asset('assets/css/slick-theme.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <link rel="icon" href="{{ asset('assets/img/file.enc') }}" type="image/png">
+
     @stack('styles')
 </head>
 
@@ -86,13 +78,13 @@
     <!-- Fancybox JS -->
     <script src="{{ asset('assets/js/jquery.fancybox.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/js/slick.js') }}"></script>
+    <script src="{{ asset('assets/js/slick.js') }}" defer></script>
     <!-- Swiper slider JS -->
-    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}" defer></script>
 
-    <script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/waypoints.min.js') }}" defer></script>
     <!-- main js  -->
-    <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}" defer></script>
 
 
     @stack('scripts')
